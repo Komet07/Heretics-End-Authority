@@ -22,32 +22,14 @@
 				<ware ware="superfluidcoolant"/>
 				<ware ware="turretcomponents"/>
 				<ware ware="weaponcomponents"/>
-				<ware ware="refinedmetals"/>
 			</wares>
 		</basket>
 	</add>
 	<add sel="/baskets">
-		<basket id="l_hauler_hea" name="Long Distance Hauler Wares - HEA">
+		<basket id="refined_mineral_normal_hea" name="Refined Mineral Wares - HEA">
 			<wares>
-				<ware ware="advancedcomposites"/>
-				<ware ware="advancedelectronics"/>
-				<ware ware="antimattercells"/>
-				<ware ware="antimatterconverters"/>
-				<ware ware="claytronics"/>
-				<ware ware="dronecomponents"/>
-				<ware ware="engineparts"/>
-				<ware ware="fieldcoils"/>
-				<ware ware="hullparts"/>
-				<ware ware="microchips"/>
-				<ware ware="missilecomponents"/>
-				<ware ware="plasmaconductors"/>
-				<ware ware="quantumtubes"/>
-				<ware ware="siliconwafers"/>
-				<ware ware="smartchips"/>
-				<ware ware="superfluidcoolant"/>
-				<ware ware="turretcomponents"/>
-				<ware ware="weaponcomponents"/>
 				<ware ware="refinedmetals"/>
+				<ware ware="siliconwafers"/>
 			</wares>
 		</basket>
 	</add>
