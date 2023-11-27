@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<!-- STATIONS STATIONS STATIONS STATIONS STATIONS STATIONS -->
+  <!-- Defence Stations -->
+	<add sel="//god/stations">
+		<station id="khea_defence_cluster_31_sector001" race="argon" owner="khea" type="factory"> <!-- Heretic's End Defense Station-->
+			<quotas>
+				<quota galaxy="3" sector="3"/>
+			</quotas>
+			<location class="sector" macro="Cluster_31_Sector001_macro" matchextension="false"/>
+			<station>
+				<select faction="khea" tags="[defence]"/>
+			</station>
+		</station>
+		<station id="shipyard_khea_01" race="argon" owner="khea" type="factory"> <!-- Heretic's End Shipyard -->
+			<quotas>
+				<quota galaxy="1" sector="1"/>
+			</quotas>
+			<location class="sector" macro="Cluster_31_Sector001_macro" matchextension="false"/>
+			<station>
+				<select faction="khea" tags="[shipyard]"/>
+				<loadout>
+					<level exact="1.0"/>
+				</loadout>
+			</station>
+		</station>
+		<station id="wharf_khea_01" race="argon" owner="khea" type="factory"> <!-- Heretic's End Wharf-->
+			<quotas>
+				<quota galaxy="1" zone="1"/>
+			</quotas>
+			<location class="zone" macro="Cluster_31_Sector001_macro" matchextension="false"/>
+			<station>
+				<select faction="khea" tags="[wharf]"/>
+				<loadout>
+					<level exact="1.0"/>
+				</loadout>
+			</station>
+		</station>
+		<station id="tradestation_khea_01" race="argon" owner="khea" type="tradingstation"> <!-- Heretic's End Trade Station -->
+			<quotas>
+				<quota galaxy="1" zone="1"/>
+			</quotas>
+			<location class="zone" macro="Cluster_31_Sector001_macro" matchextension="false"/>
+			<station>
+				<select faction="khea" tags="[tradestation]"/>
+				<loadout>
+					<level min="0.75" max="1.0"/>
+				</loadout>
+			</station>
+		</station>
+		<station id="equipmentdock_khea_01" race="argon" owner="khea" type="factory"> <!-- Heretic's End Equipment Dock-->
+			<quotas>
+				<quota galaxy="1" zone="1"/>
+			</quotas>
+			<location class="zone" macro="Cluster_31_Sector001_macro" matchextension="false"/>
+			<station>
+				<select faction="khea" tags="[equipmentdock]"/>
+				<loadout>
+					<level exact="1.0"/>
+				</loadout>
+			</station>
+		</station>
+	</add>
+	<!-- END STATIONS END STATIONS END STATIONS END STATIONS END STATIONS END STATIONS END STATIONS END STATIONS -->
+	<!-- PRODUCTS PRODUCTS PRODUCTS PRODUCTS PRODUCTS PRODUCTS PRODUCTS PRODUCTS -->
+	<add sel="//god/products">
+		<product id="khea_advancedcomposites" ware="advancedcomposites" owner="khea" type="factory">
+			<quotas>
+				<quota galaxy="6"/>
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[khea]" relation="self" comparison="exact" matchextension="false">
+				<security min="0.6" max="0.95"/>
+			</location>
+			<module>
+				<select ware="advancedcomposites" race="argon"/>
+			</module>
+		</product>
+		<product id="khea_advancedelectronics" ware="advancedelectronics" owner="khea" type="factory">
+			<quotas>
+				<quota galaxy="16" sector="12"/>
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[khea]" relation="self" comparison="exact" matchextension="false">
+				<security min="0.75"/>
+			</location>
+			<module>
+				<select ware="advancedelectronics" race="argon"/>
+			</module>
+		</product>
+		<product id="khea_antimattercells" ware="antimattercells" owner="khea" type="factory">
+			<quotas>
+				<quota galaxy="4" sector="4"/>
+				<!--minorantimattercells-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[khea]" relation="self" comparison="exact" matchextension="false">
+				<region ware="hydrogen" min="15000"/>
+			</location>
+			<module>
+				<select ware="antimattercells" race="argon"/>
+			</module>
+		</product>
+		<product id="khea_antimatterconverters" ware="antimatterconverters" owner="khea" type="factory">
+			<quotas>
+				<quota galaxy="8" sector="8"/>
+				<!--minorantimatterconverters-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[khea]" relation="self" comparison="exact" matchextension="false">
+				<security min="0.6" max="0.95"/>
+			</location>
+			<module>
+				<select ware="antimatterconverters" race="argon"/>
+			</module>
+		</product>
+		<product id="khea_claytronics" ware="claytronics" owner="khea" type="factory">
+			<quotas>
+				<quota galaxy="16" sector="8"/>
+				<!--minorclaytronics-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[khea]" relation="self" comparison="exact" matchextension="false">
+				<security min="0.75"/>
+			</location>
+			<module>
+				<select ware="claytronics" race="argon"/>
+			</module>
+		</product>
+		<product id="khea_dronecomponents" ware="dronecomponents" owner="khea" type="factory">
+			<quotas>
+				<quota galaxy="12"/>
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[khea]" relation="self" comparison="exact" matchextension="false">
+				<security min="0.6" max="0.95"/>
+			</location>
+			<module>
+				<select ware="dronecomponents" race="argon"/>
+			</module>
+		</product>
+		<product id="khea_energycells" ware="energycells" owner="khea" type="factory">
+			<quotas>
+				<quota galaxy="40" sector="20"/>
+				<!--minorenergycells-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[khea]" relation="self" comparison="exact" matchextension="false">
+				<sunlight min="1.0"/>
+				<security min="0.6" max="0.95"/>
+			</location>
+			<module>
+				<select ware="energycells" race="argon"/>
+			</module>
+		</product>
+		<product id="khea_engineparts" ware="engineparts" owner="khea" type="factory">
+			<quotas>
+				<quota galaxy="10"/>
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[khea]" relation="self" comparison="exact" matchextension="false">
+				<security min="0.75"/>
+			</location>
+			<module>
+				<select ware="engineparts" race="argon"/>
+			</module>
+		</product>
+		<product id="khea_fieldcoils" ware="fieldcoils" owner="khea" type="factory">
+			<quotas>
+				<quota galaxy="4"/>
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[khea]" relation="self" comparison="exact" matchextension="false">
+				<security min="0.6" max="0.95"/>
+			</location>
+			<module>
+				<select ware="fieldcoils" race="argon"/>
+			</module>
+		</product>
+		<product id="khea_foodrations" ware="foodrations" owner="khea" type="factory">
+			<quotas>
+				<quota galaxy="25" sector="20"/>
+				<!--minorfood-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[khea]" relation="self" comparison="exact" matchextension="false">
+				<security min="0.6" max="0.95"/>
+			</location>
+			<module>
+				<select ware="foodrations" race="argon"/>
+			</module>
+		</product>
+		<product id="khea_graphene" ware="graphene" owner="khea" type="factory">
+			<quotas>
+				<quota galaxy="28"/>
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[khea]" relation="self" comparison="exact" matchextension="false">
+				<region ware="methane" max="100000"/>
+			</location>
+			<module>
+				<select ware="graphene" race="argon"/>
+			</module>
+		</product>
+		<product id="khea_hullparts" ware="hullparts" owner="khea" type="factory">
+			<quotas>
+				<quota galaxy="70" sector="36"/>
+				<!--minorhullparts-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[khea]" relation="self" comparison="exact" matchextension="false">
+				<security min="0.75"/>
+			</location>
+			<module>
+				<select ware="hullparts" race="argon"/>
+			</module>
+		</product>
+		<product id="khea_meat" ware="meat" owner="khea" type="factory">
+			<quotas>
+				<quota galaxy="8" sector="8"/>
+				<!--minorsubfood-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[khea]" relation="self" comparison="exact" matchextension="false">
+				<security min="0.6" max="0.95"/>
+			</location>
+			<module>
+				<select ware="meat" race="argon"/>
+			</module>
+		</product>
+		<product id="khea_medicalsupplies" ware="medicalsupplies" owner="khea" type="factory">
+			<quotas>
+				<quota galaxy="40" sector="24"/>
+				<!--minormedicalsupplies-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[khea]" relation="self" comparison="exact" matchextension="false"/>
+			<module>
+				<select ware="medicalsupplies" race="argon"/>
+			</module>
+		</product>
+		<product id="khea_microchips" ware="microchips" owner="khea" type="factory">
+			<quotas>
+				<quota galaxy="42" sector="24"/>
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[khea]" relation="self" comparison="exact" matchextension="false">
+				<security min="0.6" max="0.95"/>
+			</location>
+			<module>
+				<select ware="microchips" race="argon"/>
+			</module>
+		</product>
+		<product id="khea_missilecomponents" ware="missilecomponents" owner="khea" type="factory">
+			<quotas>
+				<quota galaxy="16" sector="8"/>
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[khea]" relation="self" comparison="exact" matchextension="false">
+				<security min="0.6" max="0.95"/>
+			</location>
+			<module>
+				<select ware="missilecomponents" race="argon"/>
+			</module>
+		</product>
+		<product id="khea_plasmaconductors" ware="plasmaconductors" owner="khea" type="factory">
+			<quotas>
+				<quota galaxy="18"/>
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[khea]" relation="self" comparison="exact" matchextension="false">
+				<security min="0.6" max="0.95"/>
+			</location>
+			<module>
+				<select ware="plasmaconductors" race="argon"/>
+			</module>
+		</product>
+		<product id="khea_quantumtubes" ware="quantumtubes" owner="khea" type="factory">
+			<quotas>
+				<quota galaxy="24"/>
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[khea]" relation="self" comparison="exact" matchextension="false">
+				<security min="0.6" max="0.95"/>
+			</location>
+			<module>
+				<select ware="quantumtubes" race="argon"/>
+			</module>
+		</product>
+		<product id="khea_refinedmetals" ware="refinedmetals" owner="khea" type="factory">
+			<quotas>
+				<quota galaxy="46"/>
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[khea]" relation="self" comparison="exact" matchextension="false">
+				<region ware="ore" max="100000"/>
+			</location>
+			<module>
+				<select ware="refinedmetals" race="argon"/>
+			</module>
+		</product>
+		<product id="khea_scanningarrays" ware="scanningarrays" owner="khea" type="factory">
+			<quotas>
+				<quota galaxy="9"/>
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[khea]" relation="self" comparison="exact" matchextension="false">
+				<security min="0.6" max="0.95"/>
+			</location>
+			<module>
+				<select ware="scanningarrays" race="argon"/>
+			</module>
+		</product>
+		<product id="khea_shieldcomponents" ware="shieldcomponents" owner="khea" type="factory">
+			<quotas>
+				<quota galaxy="16" sector="10"/>
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[khea]" relation="self" comparison="exact" matchextension="false">
+				<security min="0.75"/>
+			</location>
+			<module>
+				<select ware="shieldcomponents" race="argon"/>
+			</module>
+		</product>
+		<product id="khea_siliconwafers" ware="siliconwafers" owner="khea" type="factory">
+			<quotas>
+				<quota galaxy="28"/>
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[khea]" relation="self" comparison="exact" matchextension="false">
+				<region ware="silicon" max="100000"/>
+			</location>
+			<module>
+				<select ware="siliconwafers" race="argon"/>
+			</module>
+		</product>
+		<product id="khea_smartchips" ware="smartchips" owner="khea" type="factory">
+			<quotas>
+				<quota galaxy="20"/>
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[khea]" relation="self" comparison="exact" matchextension="false">
+				<security min="0.75"/>
+			</location>
+			<module>
+				<select ware="smartchips" race="argon"/>
+			</module>
+		</product>
+		<product id="khea_spices" ware="spices" owner="khea" type="factory">
+			<quotas>
+				<quota galaxy="12" sector="12"/>
+				<!--minorsubfood-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[khea]" relation="self" comparison="exact" matchextension="false">
+				<security min="0.6" max="0.95"/>
+			</location>
+			<module>
+				<select ware="spices" race="argon"/>
+			</module>
+		</product>
+		<product id="khea_superfluidcoolant" ware="superfluidcoolant" owner="khea" type="factory">
+			<quotas>
+				<quota galaxy="10"/>
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[khea]" relation="self" comparison="exact" matchextension="false">
+				<region ware="helium" max="100000"/>
+			</location>
+			<module>
+				<select ware="superfluidcoolant" race="argon"/>
+			</module>
+		</product>
+		<product id="khea_turretcomponents" ware="turretcomponents" owner="khea" type="factory">
+			<quotas>
+				<quota galaxy="20" sector="10"/>
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[khea]" relation="self" comparison="exact" matchextension="false">
+				<security min="0.75"/>
+			</location>
+			<module>
+				<select ware="turretcomponents" race="argon"/>
+			</module>
+		</product>
+		<product id="khea_water" ware="water" owner="khea" type="factory">
+			<quotas>
+				<quota galaxy="8" sector="8"/>
+				<!--minorwater-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[khea]" relation="self" comparison="exact" matchextension="false">
+				<region ware="ice" min="15000"/>
+			</location>
+			<module>
+				<select ware="water" race="argon"/>
+			</module>
+		</product>
+		<product id="khea_weaponcomponents" ware="weaponcomponents" owner="khea" type="factory">
+			<quotas>
+				<quota galaxy="16" sector="8"/>
+				<!--minorweaponcomponents-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[khea]" relation="self" comparison="exact" matchextension="false">
+				<security min="0.75"/>
+			</location>
+			<module>
+				<select ware="weaponcomponents" race="argon"/>
+			</module>
+		</product>
+		<product id="khea_wheat" ware="wheat" owner="khea" type="factory">
+			<quotas>
+				<quota galaxy="9" sector="9"/>
+				<!--minorsubfood-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[khea]" relation="self" comparison="exact" matchextension="false">
+				<security min="0.6" max="0.95"/>
+			</location>
+			<module>
+				<select ware="wheat" race="argon"/>
+			</module>
+		</product>
+		<!-- END PRODUCTS END PRODUCTS END PRODUCTS END PRODUCTS END PRODUCTS END PRODUCTS END PRODUCTS END PRODUCTS -->
+	</add>
+</diff>
