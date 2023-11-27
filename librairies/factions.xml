@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <add sel="//factions">
+    <faction id="khea" name="{2903101,100}" description="{2903101,101}" shortname="{2903101,102}" prefixname="{2903101,118}" primaryrace="argon" behaviourset="default" known="1" tags="claimspace economic police protective watchdoguser privateloadout publicloadout privateship publicship" policefaction="khea">
+	  <color r="212" g="175" b="55" /><!--<color r="136" g="116" b="0" />-->
+      <icon active="faction_argon" inactive="faction_argon" />
+      <licences>
+		<licence type="capitalequipment" name="{2903101,103}" icon="bse_star" minrelation="0.1" precursor="ceremonyally" price="0" />
+		<licence type="capitalship" name="{2903101,104}" icon="bse_star" minrelation="0.1" precursor="ceremonyally" price="0" />
+		<licence type="ceremonyally" name="{2903101,105}" minrelation="0.1" price="0" />
+		<licence type="ceremonyfriend" name="{2903101,106}" minrelation="0.01" price="0" />
+		<licence type="generaluseequipment" name="{2903101,107}" minrelation="-0.01" price="0" />
+		<licence type="generaluseship" name="{2903101,108}" minrelation="-0.01" price="0" />
+		<licence type="militaryequipment" name="{2903101,109}" icon="bse_star" minrelation="0.01" precursor="ceremonyfriend" price="0" />
+		<licence type="militaryship" name="{2903101,110}" icon="bse_star" minrelation="0.01" precursor="ceremonyfriend" price="0" />
+		<licence type="police" name="{2903101,111}" description="{20207,1002}" minrelation="0.01" precursor="ceremonyfriend" price="156000" maxlegalscan="3" />
+		<licence type="shipsalecontract" name="{2903101,119}" description="{20207,9002}" minrelation="0.1" precursor="ceremonyally" price="1" tags="hidden" /> 
+		<licence type="station_equip_lxl" name="{2903101,112}" minrelation="0.1" precursor="ceremonyally" price="0" />
+		<licence type="station_equip_sm" name="{2903101,113}" minrelation="0.1" precursor="ceremonyally" price="0" />
+		<licence type="station_gen_advanced" name="{2903101,114}" minrelation="0.1" precursor="ceremonyally" price="0" />
+		<licence type="station_gen_basic" name="{2903101,115}" minrelation="-0.01" price="0" />
+		<licence type="station_gen_intermediate" name="{2903101,116}" minrelation="0.01" precursor="ceremonyfriend" price="0" />
+		<licence type="tradesubscription" name="{2903101,117}" description="{20207,4002}" minrelation="0.1" precursor="ceremonyally" price="10000000" />
+      </licences>
+      <relations>
+        <!-- Tense ZYA / Neutral ARG / Enemy HOP -->
+		<relation faction="argon" relation="+0.0032" />
+		<relation faction="split" relation="-0.0032" />
+		<relation faction="holyorder" relation="-0.032" />
+		<!-- Criminals/Hostiles -->
+		<relation faction="criminal" relation="-0.5" />
+        <relation faction="fallensplit" relation="-0.32" />
+        <relation faction="khaak" relation="-1" />
+		<relation faction="scaleplate" relation="-0.32" />
+		<relation faction="smuggler" relation="-0.06" />
+        <relation faction="xenon" relation="-1" />
+		<!-- Positive PAR/TEL -->
+		<relation faction="paranid" relation="0.01" />
+		<relation faction="teladi" relation="0.01" />
+      </relations>
+    </faction>
+  </add>
+  <!-- Tense ZYA / Neutral ARG / Enemy HOP -->
+  <add sel="//factions/faction[@id='split']/relations"><relation faction="damarr" relation="-0.0032" /></add>
+  <add sel="//factions/faction[@id='argon']/relations"><relation faction="damarr" relation="+0.0032" /></add>
+  <add sel="//factions/faction[@id='holyorder']/relations"><relation faction="damarr" relation="-0.032" /></add>
+  <!-- Criminals/Hostiles -->
+  <add sel="//factions/faction[@id='criminal']/relations"><relation faction="damarr" relation="-0.5" /></add>
+  <add sel="//factions/faction[@id='fallensplit']/relations"><relation faction="damarr" relation="-0.32" /></add>
+  <add sel="//factions/faction[@id='khaak']/relations"><relation faction="damarr" relation="-1" /></add>
+  <add sel="//factions/faction[@id='scaleplate']/relations"><relation faction="damarr" relation="-0.32" /></add>
+  <add sel="//factions/faction[@id='smuggler']/relations"><relation faction="damarr" relation="-0.06" /></add>
+  <add sel="//factions/faction[@id='xenon']/relations"><relation faction="damarr" relation="-1" /></add>
+  <!-- Pro PAR/ZYA -->
+  <add sel="//factions/faction[@id='paranid']/relations"><relation faction="damarr" relation="0.01" /></add>
+  <add sel="//factions/faction[@id='teladi']/relations"><relation faction="damarr" relation="0.01" /></add>
+  <!-- Player stuff -->
+  <add sel="/factions/faction[@id='player']/licences">
+	<licence type="generaluseequipment" factions="khea" />
+	<licence type="generaluseship" factions="khea" />
+	<licence type="station_gen_basic" factions="khea" />
+  </add>
+</diff>
