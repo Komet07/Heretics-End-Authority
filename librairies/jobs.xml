@@ -1377,7 +1377,7 @@
 		<task task="masstraffic.police"/>
 		<location class="station" policefaction="khea"/>
 		<quota station="2"/>
-		<masstraffic ref="masstraffic_argon_police_khea">
+		<masstraffic ref="masstraffic_argon_police">
 			<owner exact="faction.khea" overridenpc="true"/>
 		</masstraffic>
 	</job>
