@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="libraries.xsd">
+	<add sel="//stations">
+		<station id="shipyard_khea" group="shipyard_khea">
+			<category tags="shipyard" faction="[khea]"/>
+		</station>
+		<station id="wharf_khea" group="wharf_khea">
+			<category tags="wharf" faction="[khea]"/>
+		</station>
+		<station id="equipmentdock_khea" group="equipmentdock_khea">
+			<category tags="equipmentdock" faction="[khea]"/>
+		</station>
+		<station id="tradestation_khea" group="tradestation_khea">
+			<category tags="tradestation" faction="[khea]"/>
+		</station>
+		<station id="defence_khea" group="defence_khea">
+			<category tags="defence" faction="[khea]"/>
+		</station>
+	</add>
+</diff>
