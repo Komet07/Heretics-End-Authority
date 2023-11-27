@@ -2,6 +2,7 @@
 <language>
 	<page id="2903101" title="Komet07 T Files" descr="names used in komet07 Mods" voice="yes">
 		<!--29031##-->
+		<!--Basic Info and Licenses-->
 		<t id="100">Heretics End Authority</t>
 		<t id="101">The Amarr Empire is a sprawling patchwork of feudal-like provinces held together by the might of the emperor. Religion has always played a big part in Amarrian politics and the Amarrians believe they are the rightful masters of the world, souring their relations with their neighbors. Another source of ill-feelings on the part of the other empires is the fact that the Amarrians embrace slavery.</t>
 		<t id="102">HEA</t>
@@ -22,5 +23,15 @@
 		<t id="117">Authority Trade Offer Subscription</t>
 		<t id="118">Authority</t>
 		<t id="119">Authority Ship Sale Contract</t>
+		<!-- Station / Sector / Ship / Ship Job Names -->
+		<t id="130">Authority Wharf</t>
+		<t id="131">Authority Capital Ship Construction Complex</t>
+		<t id="132">Heretic's End Orbital</t> <!--Trade Station-->
+		<t id="133">Authority Maintenance Dock</t> <!-- Equipment Dock-->
+		<t id="134">Authority Defence Platform</t>
+		<t id="135">Farmer's Guild Biological Trader</t>
+		<t id="136">Farmer's Guild Agricultural Trader</t>
+		<t id="137">Medical Relief Trader</t>
+		<t id="138">Long Distance Hauler</t>
 	</page>
 </language>
