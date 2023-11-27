@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<language>
+	<page id="2903101" title="Komet07 T Files" descr="names used in komet07 Mods" voice="yes">
+		<!--29031##-->
+		<t id="100">Heretics End Authority</t>
+		<t id="101">The Amarr Empire is a sprawling patchwork of feudal-like provinces held together by the might of the emperor. Religion has always played a big part in Amarrian politics and the Amarrians believe they are the rightful masters of the world, souring their relations with their neighbors. Another source of ill-feelings on the part of the other empires is the fact that the Amarrians embrace slavery.</t>
+		<t id="102">HEA</t>
+		<t id="103">Authority Capital Equipment Licence</t>
+		<t id="104">Authority Capital Ship Licence</t>
+		<t id="105">Ally of the Authority</t>
+		<t id="106">Friend of the Authority</t>
+		<t id="107">Authority General Use Equipment Licence</t>
+		<t id="108">Authority General Use Ship Licence</t>
+		<t id="109">Authority Military Equipment Licence</t>
+		<t id="110">Authority Military Ship Licence</t>
+		<t id="111">Authority Police Licence</t>
+		<t id="112">Authority Capital Ship Building Module Licence</t>
+		<t id="113">Authority Basic Ship Building Module Licence</t>
+		<t id="114">Authority Advanced Module Licence</t>
+		<t id="115">Authority Basic Module Licence</t>
+		<t id="116">Authority Intermediate Module Licence</t>
+		<t id="117">Authority Trade Offer Subscription</t>
+		<t id="118">Authority</t>
+		<t id="119">Authority Ship Sale Contract</t>
+	</page>
+</language>
