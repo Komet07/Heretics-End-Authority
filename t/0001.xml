@@ -33,5 +33,29 @@
 		<t id="136">Farmer's Guild Agricultural Trader</t>
 		<t id="137">Medical Relief Trader</t>
 		<t id="138">Long Distance Hauler</t>
+		<t id="139">Energy Cell Trader</t>
+		<t id="140">Mining Guild Ore Miner</t>
+		<t id="141">Mining Guild Ice Miner</t>
+		<t id="142">Heavy Patrol</t>
+		<t id="143">Homeland Patrol</t>
+		<t id="144">Patrol Group</t>
+		<t id="145">Dronecarrier Group</t>
+		<t id="146">Trader Scouting Group</t>
+		<t id="147">Authority Customs Control</t>
+		<t id="148">Destroyer Escort</t>
+		<t id="149">Gunboat Wing</t>
+		<!-- Paint Job Names -->
+		<t id="200">Heretic's End</t>
+
+		<!-- Shields -->
+		<t id="250">{4816301,102}(AMR) {20111,5031}(L) {20106,1001}(Shield Generator) {20111,101}(Mk1)</t>
+		<t id="251">{4816301,102}(AMR) {20111,5031}(L) {20106,1001}(Shield Generator) {20111,201}(Mk2)</t>
+		<t id="252">{4816301,102}(AMR) {20111,5021}(M) {20106,1001}(Shield Generator) {20111,101}(Mk1)</t>
+		<t id="253">{4816301,102}(AMR) {20111,5021}(M) {20106,1001}(Shield Generator) {20111,201}(Mk2)</t>
+		<t id="256">{4816301,102}(AMR) {20111,5011}(S) {20106,1001}(Shield Generator) {20111,101}(Mk1)</t>
+		<t id="255">{4816301,102}(AMR) {20111,5011}(S) {20106,1001}(Shield Generator) {20111,201}(Mk2)</t>
+		<t id="256">{4816301,102}(AMR) {20111,5011}(S) {20106,1001}(Shield Generator) {20111,301}(Mk3)</t>
+		<t id="257">{4816301,102}(AMR) {20111,5041}(XL) {20106,1001}(Shield Generator) {20111,101}(Mk1)</t>
+
 	</page>
 </language>
