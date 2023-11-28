@@ -5,7 +5,7 @@
 	<add sel="//god/stations">
 		<station id="khea_defence_cluster_31_sector001" race="argon" owner="khea" type="factory"> <!-- Heretic's End Defense Station-->
 			<quotas>
-				<quota galaxy="3" sector="3"/>
+				<quota galaxy="24" sector="2"/>
 			</quotas>
 			<location class="sector" macro="Cluster_31_Sector001_macro" matchextension="false"/>
 			<station>
