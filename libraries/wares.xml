@@ -426,7 +426,6 @@
 			
 	<!-- Shields -->
 	
-	</add>
 	<!-- Paint -->
 	<add sel="//wares">
 		<ware id="paintmod_khea" name="{2903101,200}" description="" transport="inventory" volume="1" tags="inventory paintmod">
