@@ -1087,7 +1087,7 @@
 			<order order="Recon" default="true"/>
 		</orders>
 		<category faction="khea" tags="[factionlogic, scout]" size="ship_s"/>
-		<quota galaxy="14" sector="3"/>
+		<quota galaxy="10" sector="2"/>
 		<location class="galaxy" macro="xu_ep2_universe_macro" faction="khea" relation="self" comparison="lt" matchextension="false">
 			<factionlicences>
 			</factionlicences>
