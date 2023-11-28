@@ -379,6 +379,43 @@
 	<add sel="/wares/ware[@id='shield_arg_xl_standard_01_mk1']">
 		<owner faction="khea"/>
 	</add>
+	<add sel="/wares/ware[@id='weapon_arg_l_destroyer_01_mk1']">
+		<owner faction="khea"/>
+	</add>
+	<add sel="/wares/ware[@id=weapon_gen_s_laser_01_mk1']">
+		<owner faction="khea"/>
+	</add>
+	<add sel="/wares/ware[@id=weapon_gen_s_laser_01_mk2']">
+		<owner faction="khea"/>
+	</add>
+	<add sel="/wares/ware[@id=weapon_gen_s_gatling_01_mk1']">
+		<owner faction="khea"/>
+	</add>
+	<add sel="/wares/ware[@id=weapon_gen_s_gatling_01_mk2']">
+		<owner faction="khea"/>
+	</add>
+	<add sel="/wares/ware[@id=weapon_gen_m_laser_01_mk1']">
+		<owner faction="khea"/>
+	</add>
+	<add sel="/wares/ware[@id=weapon_gen_m_laser_01_mk2']">
+		<owner faction="khea"/>
+	</add>
+	<add sel="/wares/ware[@id=weapon_gen_m_gatling_01_mk1']">
+		<owner faction="khea"/>
+	</add>
+	<add sel="/wares/ware[@id=weapon_gen_m_gatling_01_mk2']">
+		<owner faction="khea"/>
+	</add>
+	<add sel="/wares/ware[@id=turret_arg_m_gatling_02_mk1']">
+		<owner faction="khea"/>
+	</add>
+	<add sel="/wares/ware[@id=turret_arg_m_flak_02_mk1']">
+		<owner faction="khea"/>
+	</add>
+	<add sel="/wares/ware[@id=turret_arg_m_laser_02_mk1']">
+		<owner faction="khea"/>
+	</add>
+
 	<!--
   <add sel="/wares/ware[@id='xxx']">
     <owner faction="khea" />
