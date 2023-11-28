@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<content id="Komet07FactionHEA" name="Komet07 Faction Heretic's End Authority" description="Adds the 'Heretic's End Authority' faction with a complete economy and faction logic" author="komet07" version="600" date="2023-11-27" save="1" sync="false">
+<content id="Komet07FactionHEA" name="Heretic's End Authority" description="Adds the 'Heretic's End Authority' faction with a complete economy and faction logic" author="komet07" version="600" date="2023-11-27" save="1" sync="false">
 	<dependency id="ego_dlc_split" optional="true" name="Split Vendetta"/>
 	<dependency id="ego_dlc_terran" optional="true" name="Cradle of Humanity"/>
 	<dependency id="ego_dlc_pirate" optional="true" name="Tides of Avarice"/>
 	<dependency id="ego_dlc_boron" optional="true" name="Fish People"/>
-	<text language="7" name="Komet07 Faction Heretic's End Authority" description="Adds the 'Heretic's End Authority' faction with a complete economy and faction logic" author="komet07"/>
-	<text language="33" name="Komet07 Faction Heretic's End Authority" description="Adds the 'Heretic's End Authority' faction with a complete economy and faction logic" author="komet07"/>
-	<text language="34" name="Komet07 Faction Heretic's End Authority" description="Adds the 'Heretic's End Authority' faction with a complete economy and faction logic" author="komet07"/>
-	<text language="39" name="Komet07 Faction Heretic's End Authority" description="Adds the 'Heretic's End Authority' faction with a complete economy and faction logic" author="komet07"/>
-	<text language="44" name="Komet07 Faction Heretic's End Authority" description="Adds the 'Heretic's End Authority' faction with a complete economy and faction logic" author="komet07"/>
-	<text language="45" name="Komet07 Faction Heretic's End Authority" description="Adds the 'Heretic's End Authority' faction with a complete economy and faction logic" author="komet07"/>
-	<text language="49" name="Komet07 Faction Heretic's End Authority" description="Adds the 'Heretic's End Authority' faction with a complete economy and faction logic" author="komet07"/>
-	<text language="81" name="Komet07 Faction Heretic's End Authority" description="Adds the 'Heretic's End Authority' faction with a complete economy and faction logic" author="komet07"/>
-	<text language="82" name="Komet07 Faction Heretic's End Authority" description="Adds the 'Heretic's End Authority' faction with a complete economy and faction logic" author="komet07"/>
-	<text language="86" name="Komet07 Faction Heretic's End Authority" description="Adds the 'Heretic's End Authority' faction with a complete economy and faction logic" author="komet07"/>
-	<text language="88" name="Komet07 Faction Heretic's End Authority" description="Adds the 'Heretic's End Authority' faction with a complete economy and faction logic" author="komet07"/>
+	
+	<text language="44" name="Heretic's End Authority" description="Adds the 'Heretic's End Authority' faction with a complete economy and faction logic" author="komet07"/>
+	<text language="49" name="Heretic's End Authority" description="Adds the 'Heretic's End Authority' faction with a complete economy and faction logic" author="komet07"/>
 </content>
