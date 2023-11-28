@@ -45,8 +45,8 @@
 			<select macro="ship_spl_m_miner_liquid_01_a_macro" weight="50"/>
 		</group>
 		<group name="khea_destroyer_l">
-			<select macro="ship_arg_l_destroyer_a_macro" weight="100"/>
-			<select macro="ship_spl_l_destroyer_a_macro" weight="10"/>
+			<select macro="ship_arg_l_destroyer_01_a_macro" weight="100"/>
+			<select macro="ship_spl_l_destroyer_01_a_macro" weight="10"/>
 		</group>
 		<group name="khea_frigate_m">
 			<select macro="ship_tel_m_frigate_01_a_macro" weight="100"/>
