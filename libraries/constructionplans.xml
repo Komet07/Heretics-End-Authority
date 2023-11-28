@@ -670,14 +670,14 @@
 					<position x="734.575" y="-200" z="1065.68"/>
 				</offset>
 			</entry>
-			<entry index="4" macro="dockarea_arg_m_02_tradestation_01_macro" connection="connectionsnap002">
+			<entry index="4" macro="dockarea_arg_m_tradestation_01_macro" connection="connectionsnap002">
 				<predecessor index="3" connection="connectionsnap001"/>
 				<offset>
 					<position x="734.576" y="-200" z="1865.68"/>
 					<rotation yaw="90.00005"/>
 				</offset>
 			</entry>
-			<entry index="5" macro="dockarea_arg_m_02_tradestation_01_macro" connection="connectionsnap001">
+			<entry index="5" macro="dockarea_arg_m_tradestation_01_macro" connection="connectionsnap001">
 				<predecessor index="2" connection="connectionsnap002"/>
 				<offset>
 					<position x="734.575" y="-200" z="-2134.32"/>
@@ -698,7 +698,7 @@
 					<rotation yaw="-90.00001"/>
 				</offset>
 			</entry>
-			<entry index="8" macro="pier_arg_single_01_tradestation_01_macro" connection="connectionsnap001">
+			<entry index="8" macro="pier_arg_single_tradestation_01_macro" connection="connectionsnap001">
 				<predecessor index="7" connection="connectionsnap001"/>
 				<offset>
 					<position x="1737.035" y="-200" z="-2534.36"/>
@@ -719,7 +719,7 @@
 					<rotation yaw="89.99995"/>
 				</offset>
 			</entry>
-			<entry index="11" macro="pier_arg_single_01_tradestation_01_macro" connection="connectionsnap002">
+			<entry index="11" macro="pier_arg_single_tradestation_01_macro" connection="connectionsnap002">
 				<predecessor index="10" connection="connectionsnap002"/>
 				<offset>
 					<position x="-262.964" y="-200" z="-2534.274"/>
@@ -747,7 +747,7 @@
 					<rotation yaw="89.99995"/>
 				</offset>
 			</entry>
-			<entry index="15" macro="pier_arg_single_01_tradestation_01_macro" connection="connectionsnap001">
+			<entry index="15" macro="pier_arg_single_tradestation_01_macro" connection="connectionsnap001">
 				<predecessor index="14" connection="connectionsnap001"/>
 				<offset>
 					<position x="-265.381" y="-200" z="2265.723"/>
@@ -761,7 +761,7 @@
 					<rotation yaw="-90.00002"/>
 				</offset>
 			</entry>
-			<entry index="17" macro="pier_arg_single_01_tradestation_01_macro" connection="connectionsnap002">
+			<entry index="17" macro="pier_arg_single_tradestation_01_macro" connection="connectionsnap002">
 				<predecessor index="16" connection="connectionsnap002"/>
 				<offset>
 					<position x="1734.619" y="-200" z="2265.635"/>
