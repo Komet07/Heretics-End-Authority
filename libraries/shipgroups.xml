@@ -3,12 +3,13 @@
 	<add sel="//groups">
 		<group name="khea_builder_xl">
 			<select macro="ship_arg_xl_builder_01_a_macro" weight="100"/>
+			<select macro="ship_tel_xl_builder_01_a_macro" weight="100"/>
 		</group>
 		<group name="khea_trader_container_l">
-			<select macro="ship_arg_l_trans_container_01_a_macro" weight="100"/>
+			<select macro="ship_tel_l_trans_container_01_a_macro" weight="100"/>
 		</group>
 		<group name="khea_trader_container_m">
-			<select macro="ship_arg_m_trans_container_01_a_macro" weight="100"/>
+			<select macro="ship_tel_m_trans_container_01_a_macro" weight="100"/>
 			<select macro="ship_arg_m_trans_container_02_a_macro" weight="100"/>
 		</group>
 		<group name="khea_trader_container_s">
@@ -16,7 +17,7 @@
 			<select macro="ship_arg_s_trans_container_02_a_macro" weight="100"/>
 		</group>
 		<group name="khea_miner_solid_l">
-			<select macro="ship_arg_l_miner_solid_01_a_macro" weight="100"/>
+			<select macro="ship_tel_l_miner_solid_01_a_macro" weight="100"/>
 		</group>
 		<group name="khea_miner_liquid_l">
 			<select macro="ship_arg_l_miner_liquid_01_a_macro" weight="100"/>
@@ -42,7 +43,7 @@
 			<select macro="ship_arg_l_destroyer_a_macro" weight="100"/>
 		</group>
 		<group name="khea_frigate_m">
-			<select macro="ship_arg_m_frigate_01_a_macro" weight="100"/>
+			<select macro="ship_tel_m_frigate_01_a_macro" weight="100"/>
 		</group>
 		<group name="khea_gunboat_m">
 			<select macro="ship_arg_m_bomber_01_a_macro" weight="100"/>
