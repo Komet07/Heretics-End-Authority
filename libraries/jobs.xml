@@ -148,8 +148,11 @@
 			</loadout>
 			<owner exact="khea" overridenpc="true"/>
 		</ship>
+		<subordinates>
+			<subordinate job="khea_fighter_escort_s_hauler" assignment="defend" group="1"/>
+		</subordinates>
 	</job>
-  <job id="khea_hauler_l_build" name="{2903101,138}">
+  	<job id="khea_hauler_l_build" name="{2903101,138}">
 		<modifiers commandeerable="true"/>
 		<orders>
 			<order order="TradeRoutine" default="true">
@@ -171,6 +174,9 @@
 			</loadout>
 			<owner exact="khea" overridenpc="true"/>
 		</ship>
+		<subordinates>
+			<subordinate job="khea_fighter_escort_s_hauler" assignment="defend" group="1"/>
+		</subordinates>
 	</job>
 	<job id="khea_energycell_trader_m" name="{2903101,139}">
 		<modifiers commandeerable="true"/>
@@ -882,9 +888,9 @@
 			<owner exact="khea" overridenpc="true"/>
 		</ship>
 		<subordinates>
-      <subordinate job="khea_destroyer_escort_l" assignment="attack" group="1"/>
-      <subordinate job="khea_gunboat_m" assignment="attack" group="2"/>
-      <subordinate job="khea_gunboat_m" assignment="attack" group="2"/>
+			<subordinate job="khea_destroyer_escort_l" assignment="attack" group="1"/>
+		      	<subordinate job="khea_gunboat_m" assignment="attack" group="2"/>
+			<subordinate job="khea_gunboat_m" assignment="attack" group="2"/>
 		</subordinates>
 	</job>
   <job id="khea_destroyer_patrol_l_core_build" name="{2903101,143}">
@@ -906,11 +912,11 @@
 			<owner exact="khea" overridenpc="true"/>
 		</ship>
 		<subordinates>
-      <subordinate job="khea_destroyer_escort_l" assignment="attack" group="1"/>
-      <subordinate job="khea_destroyer_escort_l" assignment="attack" group="1"/>
-      <subordinate job="khea_gunboat_m" assignment="attack" group="2"/>
-      <subordinate job="khea_gunboat_m" assignment="attack" group="2"/>
-      <subordinate job="khea_gunboat_m" assignment="attack" group="2"/>
+      			<subordinate job="khea_destroyer_escort_l" assignment="attack" group="1"/>
+      			<subordinate job="khea_destroyer_escort_l" assignment="attack" group="1"/>
+      			<subordinate job="khea_gunboat_m" assignment="attack" group="2"/>
+      			<subordinate job="khea_gunboat_m" assignment="attack" group="2"/>
+      			<subordinate job="khea_gunboat_m" assignment="attack" group="2"/>
 		</subordinates>
 	</job>
   <job id="khea_destroyer_patrol_l_core" name="{2903101,143}">
@@ -932,11 +938,11 @@
 			<owner exact="khea" overridenpc="true"/>
 		</ship>
 		<subordinates>
-      <subordinate job="khea_destroyer_escort_l" assignment="attack" group="1"/>
-      <subordinate job="khea_destroyer_escort_l" assignment="attack" group="1"/>
-      <subordinate job="khea_gunboat_m" assignment="attack" group="2"/>
-      <subordinate job="khea_gunboat_m" assignment="attack" group="2"/>
-      <subordinate job="khea_gunboat_m" assignment="attack" group="2"/>
+      			<subordinate job="khea_destroyer_escort_l" assignment="attack" group="1"/>
+      			<subordinate job="khea_destroyer_escort_l" assignment="attack" group="1"/>
+      			<subordinate job="khea_gunboat_m" assignment="attack" group="2"/>
+     			<subordinate job="khea_gunboat_m" assignment="attack" group="2"/>
+      			<subordinate job="khea_gunboat_m" assignment="attack" group="2"/>
 		</subordinates>
 	</job>
 	<job id="khea_destroyer_patrol_l_sector_build" name="{2903101,142}">
@@ -958,9 +964,9 @@
 			<owner exact="khea" overridenpc="true"/>
 		</ship>
 		<subordinates>
-      <subordinate job="khea_destroyer_escort_l" assignment="attack" group="1"/>
-      <subordinate job="khea_gunboat_m" assignment="attack" group="2"/>
-      <subordinate job="khea_gunboat_m" assignment="attack" group="2"/>
+     			<subordinate job="khea_destroyer_escort_l" assignment="attack" group="1"/>
+      			<subordinate job="khea_gunboat_m" assignment="attack" group="2"/>
+      			<subordinate job="khea_gunboat_m" assignment="attack" group="2"/>
 		</subordinates>
 	</job>
 	<job id="khea_military_patrol_m_sector_exp" name="{2903101,144}">
@@ -982,7 +988,8 @@
 			<owner exact="khea" overridenpc="true"/>
 		</ship>
 		<subordinates>
-      <subordinate job="khea_gunboat_m" assignment="attack" group="2"/>
+      			<subordinate job="khea_gunboat_m" assignment="attack" group="2"/>
+			
 		</subordinates>
 	</job>
 	<job id="khea_military_patrol_m_sector_exp_build" name="{20204,2901}">
@@ -1004,8 +1011,7 @@
 			<owner exact="khea" overridenpc="true"/>
 		</ship>
 		<subordinates>
-			<subordinate job="khea_fighter_escort_s_frigate" assignment="attack" group="1"/>
-			<subordinate job="khea_escort_m_solo" assignment="attack" group="2"/>
+			<subordinate job="khea_gunboat_m" assignment="attack" group="2"/>
 		</subordinates>
 	</job>
 	<job id="khea_dronecarrier_patrol_m_sector" name="{20204,5001}">
@@ -1061,6 +1067,26 @@
 			<order order="Recon" default="true"/>
 		</orders>
 		<category faction="khea" tags="[factionlogic, trader, container]" size="ship_s"/>
+		<quota galaxy="14" sector="3"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="khea" relation="self" comparison="lt" matchextension="false">
+			<factionlicences>
+			</factionlicences>
+		</location>
+		<environment buildatshipyard="true" preferbuilding="true"/>
+		<ship>
+			<select faction="khea" tags="[scout]" size="ship_s"/>
+			<loadout>
+				<level min="0.2" max="0.5"/>
+			</loadout>
+			<owner exact="khea" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="khea_scout_recon_s2" name="{2903101,151}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="Recon" default="true"/>
+		</orders>
+		<category faction="khea" tags="[factionlogic, scout]" size="ship_s"/>
 		<quota galaxy="14" sector="3"/>
 		<location class="galaxy" macro="xu_ep2_universe_macro" faction="khea" relation="self" comparison="lt" matchextension="false">
 			<factionlicences>
@@ -1201,7 +1227,27 @@
 			</order>
 		</orders>
 		<category faction="khea" tags="[military, fighter]" size="ship_s"/>
-		<quota wing="1"/>
+		<quota wing="5"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<modifiers subordinate="true"/>
+		<ship>
+			<select faction="khea" tags="[military, fighter]" size="ship_s"/>
+			<loadout>
+				<level min="0.25" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="khea" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="khea_fighter_escort_s_hauler" name="{2903101,150}" startactive="false">
+		<orders>
+			<order order="Escort" default="true">
+				<param name="formation" value="formationshape.pointguard"/>
+				<param name="overrideformationskill" value="true"/>
+			</order>
+		</orders>
+		<category faction="khea" tags="[military, fighter]" size="ship_s"/>
+		<quota wing="3"/>
 		<location class="galaxy" macro="xu_ep2_universe_macro" matchextension="false"/>
 		<environment buildatshipyard="true"/>
 		<modifiers subordinate="true"/>
