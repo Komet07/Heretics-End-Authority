@@ -49,6 +49,9 @@
 	<add sel="/wares/ware[@id='module_arg_dock_tradestation_02']">
 		<owner faction="khea"/>
 	</add>
+	<add sel="/wares/ware[@id='module_arg_dock_tradestation_01']">
+		<owner faction="khea"/>
+	</add>
 	<add sel="/wares/ware[@id='module_arg_hab_l_01']">
 		<owner faction="khea"/>
 	</add>
