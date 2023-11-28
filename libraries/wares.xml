@@ -205,10 +205,19 @@
 	<add sel="/wares/ware[@id='module_gen_prod_weaponcomponents_01']">
 		<owner faction="khea"/>
 	</add>
+	<add sel="/wares/ware[@id='ship_arg_l_trans_container_01_a']">
+		<owner faction="khea"/>
+	</add>
+	<add sel="/wares/ware[@id='ship_tel_l_trans_container_01_a']">
+		<owner faction="khea"/>
+	</add>
 	<add sel="/wares/ware[@id='ship_arg_l_miner_liquid_01_a']">
 		<owner faction="khea"/>
 	</add>
-	<add sel="/wares/ware[@id='ship_arg_l_miner_solid_01_a']">
+	<add sel="/wares/ware[@id='ship_tel_l_miner_liquid_01_a']">
+		<owner faction="khea"/>
+	</add>
+	<add sel="/wares/ware[@id='ship_tel_l_miner_solid_01_a']">
 		<owner faction="khea"/>
 	</add>
 	<add sel="/wares/ware[@id='ship_arg_m_bomber_01_a']">
@@ -220,13 +229,28 @@
 	<add sel="/wares/ware[@id='ship_arg_m_miner_liquid_01_a']">
 		<owner faction="khea"/>
 	</add>
+	<add sel="/wares/ware[@id='ship_arg_l_destroyer_a']">
+		<owner faction="khea"/>
+	</add>
+	<add sel="/wares/ware[@id='ship_spl_l_destroyer_a']">
+		<owner faction="khea"/>
+	</add>
+	<add sel="/wares/ware[@id='ship_spl_m_miner_liquid_01_a']">
+		<owner faction="khea"/>
+	</add>
 	<add sel="/wares/ware[@id='ship_arg_m_miner_solid_01_a']">
+		<owner faction="khea"/>
+	</add>
+	<add sel="/wares/ware[@id='ship_spl_m_miner_solid_01_a']">
 		<owner faction="khea"/>
 	</add>
 	<add sel="/wares/ware[@id='ship_arg_m_trans_container_01_a']">
 		<owner faction="khea"/>
 	</add>
-	<add sel="/wares/ware[@id='ship_arg_m_trans_container_02_a']">
+	<add sel="/wares/ware[@id='ship_tel_m_trans_container_01_a']">
+		<owner faction="khea"/>
+	</add>
+	<add sel="/wares/ware[@id='ship_spl_m_trans_container_01_a']">
 		<owner faction="khea"/>
 	</add>
 	<add sel="/wares/ware[@id='ship_arg_s_fighter_01_a']">
@@ -254,6 +278,12 @@
 		<owner faction="khea"/>
 	</add>
 	<add sel="/wares/ware[@id='ship_arg_xl_builder_01_a']">
+		<owner faction="khea"/>
+	</add>
+	<add sel="/wares/ware[@id='ship_tel_xl_builder_01_a']">
+		<owner faction="khea"/>
+	</add>
+	<add sel="/wares/ware[@id='ship_spl_xl_builder_01_a']">
 		<owner faction="khea"/>
 	</add>
 	<add sel="/wares/ware[@id='ship_arg_xs_police_01_a']">
@@ -288,6 +318,91 @@
 	<!-- Weapons -->
 	<add sel="//wares">
   </add>
+			<ware id="engine_dam_l_allround_01_mk1" name="{4816301,600}" description="{20107,3002}" group="engines" transport="equipment" volume="1" tags="engine equipment">
+			<price min="321518" average="357242" max="392966"/>
+			<production time="20" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="antimatterconverters" amount="147"/>
+					<ware ware="energycells" amount="25"/>
+					<ware ware="engineparts" amount="67"/>
+				</primary>
+			</production>
+			<production time="20" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="claytronics" amount="19"/>
+					<ware ware="energycells" amount="206"/>
+					<ware ware="hullparts" amount="108"/>
+				</primary>
+			</production>
+			<component ref="engine_dam_l_macro"/>
+			<restriction licence="generaluseequipment"/>
+			<use threshold="0"/>
+			<owner faction="damarr"/>
+		</ware>
+		<ware id="engine_dam_m_allround_01_mk3" name="{4816301,601}" description="{20107,2082}" group="engines" transport="equipment" volume="1" tags="engine equipment">
+			<price min="287722" average="319691" max="351660"/>
+			<production time="15" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="antimatterconverters" amount="90"/>
+					<ware ware="energycells" amount="60"/>
+					<ware ware="engineparts" amount="110"/>
+				</primary>
+			</production>
+			<production time="15" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="claytronics" amount="15"/>
+					<ware ware="energycells" amount="241"/>
+					<ware ware="hullparts" amount="88"/>
+				</primary>
+			</production>
+			<component ref="engine_dam_m_macro"/>
+			<restriction licence="generaluseequipment"/>
+			<use threshold="0"/>
+			<owner faction="damarr"/>
+		</ware>
+		<ware id="engine_dam_s_allround_01_mk3" name="{4816301,602}" description="{20107,1082}" group="engines" transport="equipment" volume="1" tags="engine equipment">
+			<price min="123301" average="137001" max="150701"/>
+			<production time="10" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="antimatterconverters" amount="40"/>
+					<ware ware="energycells" amount="40"/>
+					<ware ware="engineparts" amount="45"/>
+				</primary>
+			</production>
+			<production time="10" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="claytronics" amount="6"/>
+					<ware ware="energycells" amount="176"/>
+					<ware ware="hullparts" amount="38"/>
+				</primary>
+			</production>
+			<component ref="engine_dam_s_macro"/>
+			<restriction licence="generaluseequipment"/>
+			<use threshold="0"/>
+			<owner faction="damarr"/>
+		</ware>
+		<ware id="engine_arg_xl_allround_01_mk1" name="{4816301,603}" description="{20107,4002}" group="engines" transport="equipment" volume="1" tags="engine equipment">
+			<price min="424061" average="471179" max="518297"/>
+			<production time="30" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="antimatterconverters" amount="193"/>
+					<ware ware="energycells" amount="50"/>
+					<ware ware="engineparts" amount="89"/>
+				</primary>
+			</production>
+			<production time="30" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="claytronics" amount="25"/>
+					<ware ware="energycells" amount="290"/>
+					<ware ware="hullparts" amount="142"/>
+				</primary>
+			</production>
+			<component ref="engine_arg_xl_macro"/>
+			<restriction licence="generaluseequipment"/>
+			<use threshold="0"/>
+			<owner faction="khea"/>
+		</ware>
+	</add>
 	<!-- Shields -->
 	<add sel="//wares">
 		<ware id="shield_khea_l_standard_01_mk1" name="{2903101,250}" description="{20106,3002}" group="shields" transport="equipment" volume="1" tags="equipment shield">
