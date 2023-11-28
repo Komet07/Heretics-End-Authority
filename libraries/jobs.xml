@@ -893,7 +893,7 @@
 			<subordinate job="khea_gunboat_m" assignment="attack" group="2"/>
 		</subordinates>
 	</job>
-  <job id="khea_destroyer_patrol_l_core_build" name="{2903101,143}">
+ 	<job id="khea_destroyer_patrol_l_core_build" name="{2903101,143}">
 		<modifiers commandeerable="true"/>
 		<orders>
 			<order order="Patrol" default="true">
@@ -919,7 +919,7 @@
       			<subordinate job="khea_gunboat_m" assignment="attack" group="2"/>
 		</subordinates>
 	</job>
-  <job id="khea_destroyer_patrol_l_core" name="{2903101,143}">
+  	<job id="khea_destroyer_patrol_l_core" name="{2903101,143}">
 		<modifiers commandeerable="true"/>
 		<orders>
 			<order order="Patrol" default="true">
@@ -1159,14 +1159,14 @@
 			<owner exact="khea" overridenpc="true"/>
 		</ship>
 	</job>
-	<job id="khea_escort_m_solo" name="{20204,2901}" startactive="false">
+	<job id="khea_escort_m_solo" name="{2903101,153}" startactive="false">
 		<orders>
 			<order order="Escort" default="true">
 				<param name="formation" value="formationshape.dartvertical"/>
 				<param name="overrideformationskill" value="true"/>
 			</order>
 		</orders>
-		<category faction="khea" tags="[military]" size="ship_m"/>
+		<category faction="khea" tags="[military, medium, gunboat]" size="ship_m"/>
 		<quota wing="1"/>
 		<location class="galaxy" macro="xu_ep2_universe_macro" matchextension="false"/>
 		<environment buildatshipyard="true"/>
@@ -1179,7 +1179,7 @@
 			<owner exact="khea" overridenpc="true"/>
 		</ship>
 	</job>
-	<job id="khea_fighter_escort_s_carrier" name="{20204,2901}" startactive="false">
+	<job id="khea_fighter_escort_s_carrier" name="{2903101,152}" startactive="false">
 		<orders>
 			<order order="Escort" default="true">
 				<param name="formation" value="formationshape.pointguard"/>
@@ -1199,7 +1199,7 @@
 			<owner exact="khea" overridenpc="true"/>
 		</ship>
 	</job>
-	<job id="khea_fighter_escort_s_frigate" name="{20204,2901}" startactive="false">
+	<job id="khea_fighter_escort_s_frigate" name="{2903101,152}" startactive="false">
 		<orders>
 			<order order="Escort" default="true">
 				<param name="formation" value="formationshape.pointguard"/>
@@ -1219,7 +1219,7 @@
 			<owner exact="khea" overridenpc="true"/>
 		</ship>
 	</job>
-	<job id="khea_fighter_escort_s_patrol" name="{20204,2901}" startactive="false">
+	<job id="khea_fighter_escort_s_patrol" name="{2903101,152}" startactive="false">
 		<orders>
 			<order order="Escort" default="true">
 				<param name="formation" value="formationshape.pointguard"/>
