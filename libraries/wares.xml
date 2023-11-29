@@ -232,10 +232,10 @@
 	<add sel="/wares/ware[@id='ship_arg_m_miner_liquid_01_a']">
 		<owner faction="khea"/>
 	</add>
-	<add sel="/wares/ware[@id='ship_arg_l_destroyer_a']">
+	<add sel="/wares/ware[@id='ship_arg_l_destroyer_01_a']">
 		<owner faction="khea"/>
 	</add>
-	<add sel="/wares/ware[@id='ship_spl_l_destroyer_a']">
+	<add sel="/wares/ware[@id='ship_spl_l_destroyer_01_a']">
 		<owner faction="khea"/>
 	</add>
 	<add sel="/wares/ware[@id='ship_spl_m_miner_liquid_01_a']">
