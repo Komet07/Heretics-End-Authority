@@ -1,0 +1,47 @@
+<macro name="Cluster_31_Sector002_macro" class="sector">
+    <component ref="standardsector" />
+    <connections>
+      <connection name="Zone1_Cluster_31_Sector002_connection" ref="zones">
+        <offset>
+          <position x="0" y="0" z="300000" />
+        </offset>
+        <macro ref="Zone1_Cluster_31_Sector002_macro" connection="sector" />
+      </connection>
+      <connection name="Zone2_Cluster_31_Sector002_connection" ref="zones">
+        <offset>
+          <position x="249615" y="0" z="166410" />
+        </offset>
+        <macro ref="Zone2_Cluster_31_Sector002_macro" connection="sector" />
+      </connection>
+      <connection name="Zone3_Cluster_31_Sector002_connection" ref="zones">
+        <offset>
+          <position x="249615" y="0" z="-166410" />
+        </offset>
+        <macro ref="Zone3_Cluster_31_Sector002_macro" connection="sector" />
+      </connection>
+      <connection name="Zone4_Cluster_31_Sector002_connection" ref="zones">
+        <offset>
+          <position x="0" y="0" z="-300000" />
+        </offset>
+        <macro ref="Zone4_Cluster_31_Sector002_macro" connection="sector" />
+      </connection>
+      <connection name="Zone5_Cluster_31_Sector002_connection" ref="zones">
+        <offset>
+          <position x="-249615" y="0" z="-166410" />
+        </offset>
+        <macro ref="Zone5_Cluster_31_Sector002_macro" connection="sector" />
+	  </connection>
+	  <connection name="Zone6_Cluster_31_Sector002_connection" ref="zones">
+        <offset>
+          <position x="-249615" y="0" z="166410" />
+        </offset>
+        <macro ref="Zone6_Cluster_31_Sector002_macro" connection="sector" />
+	  </connection>
+	  <connection name="Zonec_Cluster_31_Sector002_connection" ref="zones">
+        <offset>
+          <position x="0" y="-100" z="0" />
+        </offset>
+        <macro ref="Zonec_Cluster_1_Sector002_macro" connection="sector" />
+	  </connection>
+    </connections>
+  </macro>
