@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <macros>
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
   	<add sel="//macro[@name='Cluster_31_macro']/connections">
 	  	<connection name="cluster_31_sector002_connection" ref="sectors">
 			<macro ref="cluster_31_sector002_macro" connection="cluster" />
@@ -38,4 +39,6 @@
 			</macro>
 		</connection>
 	</add>
+</diff>
+
 </macros>
