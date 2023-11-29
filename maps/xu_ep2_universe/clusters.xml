@@ -4,7 +4,7 @@
 	  	<connection name="cluster_31_sector002_connection" ref="sectors">
 			<macro ref="cluster_31_sector002_macro" connection="cluster" />
 		</connection>
-		<connection name="C31S02_Region1_connection" ref="regions">
+		<!-- <connection name="C31S02_Region1_connection" ref="regions">
 			<offset>
 				<position x="45000" y="0" z="45000"/>
 			</offset>
@@ -36,6 +36,6 @@
 					<region ref="p1_40km_helium_field"/>
 				</properties>
 			</macro>
-		</connection>
+		</connection> -->
 	</add>
 </diff>
