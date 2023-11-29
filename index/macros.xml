@@ -2,8 +2,8 @@
 <diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <add sel="//index">
     <!-- Weapons -->
-    <entry name="weapon_khea_l_destroyer_01_mk1_macro" value="extensions/heretics_end_authority/assets/props/weaponsystems/capital/macros/weapon_khea_l_destroyer_01_mk1_macro"/>
+    <entry name="weapon_khea_l_destroyer_01_mk1_macro" value="extensions\heretics_end_authority\assets\props\weaponsystems\capital\macros\weapon_khea_l_destroyer_01_mk1_macro"/>
     <!-- Bullets -->
-    <entry name="bullet_weapon_khea_l_destroyer_01_mk1_macro" value="extensions/heretics_end_authority/assets/fx/weaponfx/macros/bullet_weapon_khea_l_destroyer_01_mk1_macro"/>
+    <entry name="bullet_weapon_khea_l_destroyer_01_mk1_macro" value="extensions\heretics_end_authority\assets\fx\weaponfx\macros\bullet_weapon_khea_l_destroyer_01_mk1_macro"/>
   </add>
 </diff
