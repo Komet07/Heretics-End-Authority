@@ -1,1 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="zone1_cluster_31_sector002_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+  </macro>
+  <macro name="zone1_cluster_31_sector002_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+  </macro>
+  <macro name="zone1_cluster_31_sector002_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+  </macro>
+  <macro name="zone1_cluster_31_sector002_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+  </macro>
+  <macro name="zone1_cluster_31_sector002_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+  </macro>
+  <macro name="zone1_cluster_31_sector002_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+  </macro>
+</macros>
