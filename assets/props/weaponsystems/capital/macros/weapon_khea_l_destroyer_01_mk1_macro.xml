@@ -4,8 +4,8 @@
 		<component ref="weapon_arg_l_destroyer_01_mk1"/>
 		<properties>
 			<identification name="{2903101,250}" basename="{20105,1121}" shortname="{2903101,251}" description="{2903101,300}"/>
-			<bullet class="bullet_weapon_arg_l_destroyer_01_mk1_macro"/>
-			<heat overheat="10000" cooldelay="1.0" coolrate="1000" reenable="65000"/>
+			<bullet class="bullet_weapon_khea_l_destroyer_01_mk1_macro"/>
+			<heat overheat="10000" cooldelay="1.0" coolrate="1000" reenable="6500"/>
 			<rotationspeed max="3"/>
 			<rotationacceleration max="6"/>
 			<reload/>
