@@ -7,9 +7,6 @@
 		<group name="wharf_khea">
 			<select constructionplan="khea_wharf"/>
 		</group>
-		<group name="equipmentdock_khea">
-			<select constructionplan="khea_equipmentdock"/>
-		</group>
 		<group name="tradestation_khea">
 			<select constructionplan="khea_tradestation"/>
 		</group>
