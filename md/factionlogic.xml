@@ -13,7 +13,7 @@
         <cue name="KheaFactionLogic_Manager" ref="Manager">
               <param name="Faction" value="faction.khea" />
               <param name="BaseAggressionLevel" value="moodlevel.low" />
-              <param name="BaseAvariceLevel" value="moodlevel.normal" />
+              <param name="BaseAvariceLevel" value="moodlevel.high" />
               <param name="BaseLawfulness" value="0.4" />
               <param name="PreferredHQSpaceMacro" value="macro.Cluster_31_Sector001_macro" />
               <param name="PreferredHQTypes" value="['shipbuilding', 'tradestation']"/>
