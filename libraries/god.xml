@@ -48,18 +48,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="equipmentdock_khea_01" race="argon" owner="khea" type="factory"> <!-- Heretic's End Equipment Dock-->
-			<quotas>
-				<quota galaxy="1" zone="1"/>
-			</quotas>
-			<location class="sector" macro="Cluster_31_Sector001_macro" matchextension="false"/>
-			<station>
-				<select faction="khea" tags="[equipmentdock]"/>
-				<loadout>
-					<level exact="1.0"/>
-				</loadout>
-			</station>
-		</station>
+		
 	</add>
 	<!-- END STATIONS END STATIONS END STATIONS END STATIONS END STATIONS END STATIONS END STATIONS END STATIONS -->
 	<!-- PRODUCTS PRODUCTS PRODUCTS PRODUCTS PRODUCTS PRODUCTS PRODUCTS PRODUCTS -->
