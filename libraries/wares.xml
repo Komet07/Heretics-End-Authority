@@ -364,25 +364,22 @@
 	<add sel="/wares/ware[@id='engine_arg_xl_allround_01_mk1']">
 		<owner faction="khea"/>
 	</add>
-	<add sel="/wares/ware[@id='shield_arg_s_standard_01_mk1']">
+	<add sel="/wares/ware[@id='shield_spl_s_standard_01_mk1']">
 		<owner faction="khea"/>
 	</add>
-	<add sel="/wares/ware[@id='shield_arg_s_standard_01_mk2']">
+	<add sel="/wares/ware[@id='shield_spl_s_standard_01_mk2']">
 		<owner faction="khea"/>
 	</add>
-	<add sel="/wares/ware[@id='shield_arg_m_standard_01_mk1']">
+	<add sel="/wares/ware[@id='shield_spl_m_standard_01_mk1']">
 		<owner faction="khea"/>
 	</add>
-	<add sel="/wares/ware[@id='shield_arg_m_standard_01_mk2']">
+	<add sel="/wares/ware[@id='shield_spl_m_standard_01_mk2']">
 		<owner faction="khea"/>
 	</add>
-	<add sel="/wares/ware[@id='shield_arg_l_standard_01_mk1']">
+	<add sel="/wares/ware[@id='shield_spl_l_standard_01_mk1']">
 		<owner faction="khea"/>
 	</add>
-	<add sel="/wares/ware[@id='shield_arg_xl_standard_01_mk1']">
-		<owner faction="khea"/>
-	</add>
-	<add sel="/wares/ware[@id='weapon_arg_l_destroyer_01_mk1']">
+	<add sel="/wares/ware[@id='shield_spl_xl_standard_01_mk1']">
 		<owner faction="khea"/>
 	</add>
 	<add sel="/wares/ware[@id=weapon_gen_s_laser_01_mk1']">
@@ -499,8 +496,22 @@
   </add>
   -->
 	<!-- Weapons -->
-		
-			
+	<add>
+		<ware id="weapon_khea_l_destroyer_01_mk1" name="{2903101,250}" description="{4816304,300}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
+			<price min="1036709" average="1240788" max="1344866"/>
+			<production time="10" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="advancedelectronics" amount="43"/>
+					<ware ware="energycells" amount="173"/>
+					<ware ware="weaponcomponents" amount="86"/>
+				</primary>
+			</production>
+			<component ref="weapon_arg_l_destroyer_01_mk1_macro" amount="1"/>
+			<restriction licence="capitalequipment"/>
+			<use threshold="0"/>
+			<owner faction="khea"/>
+		</ware>	
+	</add>
 	<!-- Shields -->
 	
 	<!-- Paint -->
