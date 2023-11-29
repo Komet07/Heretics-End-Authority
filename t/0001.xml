@@ -52,7 +52,7 @@
 		<t id="200">Heretic's End</t>
 		<!-- Weapon / Turret names -->
 		<t id="250">{2903101,102}(HEA) {20111,5031}(L) Behemoth Plasma Battery</t>
-		<t id="251">{2903101,102}(HEA) {20111,5031}(L) PBT
+		<t id="251">{2903101,102}(HEA) {20111,5031}(L) PBT</t>
 		<!-- Weapon / Turret descriptions -->
 		<t id="300">The Behemoth Plasma Battery is the Authority's solution to capital-grade weapons, derived from older models of the mainline Argon Behemoth Main Battery available pre-gate shutdown, and is thus somewhat of a downgrade compared to the main Batteries utilized by other factions.</t> 
 		
