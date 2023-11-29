@@ -412,13 +412,87 @@
 	<add sel="/wares/ware[@id=turret_arg_m_gatling_02_mk1']">
 		<owner faction="khea"/>
 	</add>
-	<add sel="/wares/ware[@id=turret_arg_m_flak_02_mk1']">
+	<add sel="/wares/ware[@id=turret_spl_m_flak_02_mk1']">
 		<owner faction="khea"/>
 	</add>
 	<add sel="/wares/ware[@id=turret_arg_m_laser_02_mk1']">
 		<owner faction="khea"/>
 	</add>
-
+	<add sel="/wares/ware[@id=weapon_gen_s_beam_01_mk1']">
+		<owner faction="khea"/>
+	</add>
+	<add sel="/wares/ware[@id=weapon_gen_s_beam_01_mk2']">
+		<owner faction="khea"/>
+	</add>
+	<add sel="/wares/ware[@id=weapon_gen_s_cannon_01_mk1']">
+		<owner faction="khea"/>
+	</add>
+	<add sel="/wares/ware[@id=weapon_gen_s_burst_01_mk1']">
+		<owner faction="khea"/>
+	</add>
+	<add sel="/wares/ware[@id=weapon_gen_s_burst_01_mk1']">
+		<owner faction="khea"/>
+	</add>
+	<add sel="/wares/ware[@id=weapon_gen_s_dumbfire_01_mk1']">
+		<owner faction="khea"/>
+	</add>
+	<add sel="/wares/ware[@id=weapon_gen_s_dumbfire_01_mk2']">
+		<owner faction="khea"/>
+	</add>
+	<add sel="/wares/ware[@id=weapon_gen_s_plasma_01_mk1']">
+		<owner faction="khea"/>
+	</add>
+	<add sel="/wares/ware[@id=weapon_gen_s_shotgun_01_mk1']">
+		<owner faction="khea"/>
+	</add>
+	<add sel="/wares/ware[@id=weapon_gen_s_shotgun_01_mk2']">
+		<owner faction="khea"/>
+	</add>
+	<add sel="/wares/ware[@id=weapon_gen_s_torpedo_01_mk1']">
+		<owner faction="khea"/>
+	</add>
+	<add sel="/wares/ware[@id=weapon_gen_s_guided_01_mk1']">
+		<owner faction="khea"/>
+	</add>
+	<add sel="/wares/ware[@id=weapon_spl_s_gatling_01_mk1']">
+		<owner faction="khea"/>
+	</add>
+	<add sel="/wares/ware[@id=weapon_gen_m_beam_01_mk1']">
+		<owner faction="khea"/>
+	</add>
+	<add sel="/wares/ware[@id=weapon_gen_m_beam_01_mk2']">
+		<owner faction="khea"/>
+	</add>
+	<add sel="/wares/ware[@id=weapon_gen_m_cannon_01_mk1']">
+		<owner faction="khea"/>
+	</add>
+	<add sel="/wares/ware[@id=weapon_gen_m_burst_01_mk1']">
+		<owner faction="khea"/>
+	</add>
+	<add sel="/wares/ware[@id=weapon_gen_m_dumbfire_01_mk1']">
+		<owner faction="khea"/>
+	</add>
+	<add sel="/wares/ware[@id=weapon_gen_m_dumbfire_01_mk2']">
+		<owner faction="khea"/>
+	</add>
+	<add sel="/wares/ware[@id=weapon_gen_s_plasma_01_mk1']">
+		<owner faction="khea"/>
+	</add>
+	<add sel="/wares/ware[@id=weapon_gen_m_shotgun_01_mk1']">
+		<owner faction="khea"/>
+	</add>
+	<add sel="/wares/ware[@id=weapon_gen_m_shotgun_01_mk2']">
+		<owner faction="khea"/>
+	</add>
+	<add sel="/wares/ware[@id=weapon_gen_m_torpedo_01_mk1']">
+		<owner faction="khea"/>
+	</add>
+	<add sel="/wares/ware[@id=weapon_gen_m_guided_01_mk1']">
+		<owner faction="khea"/>
+	</add>
+	<add sel="/wares/ware[@id=weapon_spl_m_gatling_01_mk1']">
+		<owner faction="khea"/>
+	</add>
 	<!--
   <add sel="/wares/ware[@id='xxx']">
     <owner faction="khea" />
