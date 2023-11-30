@@ -18,6 +18,44 @@
     <properties>
       <boundaries>
         <boundary class="splinetube">
+          <splineposition x="-50000" y="500" z="25000" tx="" ty="" tz="" weight="" inlength="0" outlength="1" />
+          <splineposition x="341660" y="330500" z="320000" tx="" ty="" tz="" weight="" inlength="1" outlength="1" />
+          <splineposition x="683330" y="660500" z="640000" tx="" ty="" tz="" weight="" inlength="1" outlength="1" />
+          <splineposition x="1075000" y="1000500" z="965000" tx="" ty="" tz="" weight="" inlength="1" outlength="0" />
+          <size r="300" />
+        </boundary>
+      </boundaries>
+      <controls>
+        <linear>
+          <time />
+        </linear>
+        <angular>
+          <roll />
+        </angular>
+      </controls>
+    </properties>
+  </macro>
+    <macro name="SuperHighway02_Cluster31_macro" class="highway">
+    <component ref="standardsechighway" />
+    <connections>
+      <connection ref="exitpoint">
+        <offset>
+          <position x="1075000" y="1000500" z="965000" />
+        </offset>
+      </connection>
+      <connection ref="entrypoint">
+        <offset>
+          <position x="50000" y="500" z="45000" />
+        </offset>
+      </connection>
+    </connections>
+    <properties>
+      <boundaries>
+        <boundary class="splinetube">
+          <splineposition x="50000" y="500" z="45000" tx="" ty="" tz="" weight="" inlength="0" outlength="1" />
+          <splineposition x="341660" y="166500" z="320000" tx="" ty="" tz="" weight="" inlength="1" outlength="1" />
+          <splineposition x="683330" y="330500" z="640000" tx="" ty="" tz="" weight="" inlength="1" outlength="1" />
+          <splineposition x="10075000" y="500500" z="1025000" tx="" ty="" tz="" weight="" inlength="1" outlength="0" />
           <size r="300" />
         </boundary>
       </boundaries>
