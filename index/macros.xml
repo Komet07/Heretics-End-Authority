@@ -3,6 +3,7 @@
   <add sel="//index">
     <!-- Sectors -->
     <entry name="cluster_31_sector002_macro" value="maps\xu_ep2_universe\sectors"/>
+    <entry name="cluster_31_sector003_macro" value="maps\xu_ep2_universe\sectors"/>
     <entry name="zone*" value="extensions\heretics_end_authority\maps\xu_ep2_universe\zones"/>
     <!-- Weapons -->
     <entry name="weapon_khea_l_destroyer_01_mk1_macro" value="extensions\heretics_end_authority\assets\props\weaponsystems\capital\macros\weapon_khea_l_destroyer_01_mk1_macro"/>
