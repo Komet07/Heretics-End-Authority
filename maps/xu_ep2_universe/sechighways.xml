@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+  <add sel="//macros">
+  <macro name="SuperHighway01_Cluster31_macro" class="highway">
+    <component ref="standardsechighway" />
+    <connections>
+      <connection ref="exitpoint">
+        <offset>
+          <position x="1075000" y="1000500" z="965000" />
+        </offset>
+      </connection>
+      <connection ref="entrypoint">
+        <offset>
+          <position x="-50000" y="500" z="25000" />
+        </offset>
+      </connection>
+    </connections>
+    <properties>
+      <boundaries>
+        <boundary class="splinetube">
+          <size r="300" />
+        </boundary>
+      </boundaries>
+      <controls>
+        <linear>
+          <time />
+        </linear>
+        <angular>
+          <roll />
+        </angular>
+      </controls>
+    </properties>
+  </macro>
+  </add>
+</diff>
