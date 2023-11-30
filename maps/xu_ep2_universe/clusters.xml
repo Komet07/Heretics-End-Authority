@@ -4,6 +4,9 @@
 	  	<connection name="cluster_31_sector002_connection" ref="sectors">
 			<macro ref="cluster_31_sector002_macro" connection="cluster" />
 		</connection>
+		<connection name="cluster_31_sector003_connection" ref="sectors">
+			<macro ref="cluster_31_sector003_macro" connection="cluster" />
+		</connection>
 		<!-- <connection name="C31S02_Region1_connection" ref="regions">
 			<offset>
 				<position x="45000" y="0" z="45000"/>
