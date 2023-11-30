@@ -197,6 +197,7 @@
 			        <position x="1799.648" y="-1800" z="356.391"/>
 			      </offset>
 			    </entry>
+		</plan>
 		<plan id="khea_shipyard" name="{2903101,131}">
 		    <patches>
 		      <patch extension="ego_dlc_split" version="620" name="Split Vendetta"/>
@@ -898,5 +899,6 @@
 		      </offset>
 		    </entry>
 		  </plan>
+		
 	</add>
 </diff>
