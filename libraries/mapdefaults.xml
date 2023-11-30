@@ -9,6 +9,15 @@
       </sounds>
       <area sunlight="1.1" economy="0.7" security="0.6"/>
     </properties>
+    </dataset>  
+    <dataset macro="Cluster_31_sector003_macro">
+    <properties>
+      <identification name="{2903101,402}" description="{2903101,403}"/>
+      <sounds>
+        <music ref="music_soundtrack_periphery"/>
+      </sounds>
+      <area sunlight="0.9" economy="0.4" security="0.3"/>
+    </properties>
   </dataset>  
   </add>
 </diff>
