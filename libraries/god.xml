@@ -5,9 +5,36 @@
 	<add sel="//god/stations">
 		<station id="khea_defence_cluster_31_sector001" race="argon" owner="khea" type="factory"> <!-- Heretic's End Defense Station-->
 			<quotas>
-				<quota galaxy="24" sector="2"/>
+				<quota galaxy="1" sector="1"/>
 			</quotas>
 			<location class="sector" macro="Cluster_31_Sector001_macro" matchextension="false"/>
+			<station>
+				<select faction="khea" tags="[defence]"/>
+			</station>
+		</station>
+		<station id="khea_defence_cluster_31_sector001_02" race="argon" owner="khea" type="factory"> <!-- Heretic's End Defense Station 2-->
+			<quotas>
+				<quota galaxy="1" sector="1"/>
+			</quotas>
+			<location class="sector" macro="Cluster_31_Sector001_macro" matchextension="false"/>
+			<station>
+				<select faction="khea" tags="[defence]"/>
+			</station>
+		</station>
+		<station id="khea_defence_cluster_31_sector002" race="argon" owner="khea" type="factory"> <!-- Molten Orbit Defense Station-->
+			<quotas>
+				<quota galaxy="1" sector="1"/>
+			</quotas>
+			<location class="sector" macro="Cluster_31_Sector002_macro" matchextension="false"/>
+			<station>
+				<select faction="khea" tags="[defence]"/>
+			</station>
+		</station>
+		<station id="khea_defence_cluster_31_sector003" race="argon" owner="khea" type="factory"> <!-- Field of Stars Defense Station-->
+			<quotas>
+				<quota galaxy="1" sector="1"/>
+			</quotas>
+			<location class="sector" macro="Cluster_31_Sector003_macro" matchextension="false"/>
 			<station>
 				<select faction="khea" tags="[defence]"/>
 			</station>
@@ -24,11 +51,11 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="wharf_khea_01" race="argon" owner="khea" type="factory"> <!-- Heretic's End Wharf-->
+		<station id="wharf_khea_01" race="argon" owner="khea" type="factory"> <!-- Molten Orbit Wharf-->
 			<quotas>
-				<quota galaxy="1" zone="1"/>
+				<quota galaxy="1" sector="1"/>
 			</quotas>
-			<location class="sector" macro="Cluster_31_Sector001_macro" matchextension="false"/>
+			<location class="sector" macro="Cluster_31_Sector002_macro" matchextension="false"/>
 			<station>
 				<select faction="khea" tags="[wharf]"/>
 				<loadout>
@@ -38,7 +65,7 @@
 		</station>
 		<station id="tradestation_khea_01" race="argon" owner="khea" type="tradingstation"> <!-- Heretic's End Trade Station -->
 			<quotas>
-				<quota galaxy="1" zone="1"/>
+				<quota galaxy="1" sector="1"/>
 			</quotas>
 			<location class="sector" macro="Cluster_31_Sector001_macro" matchextension="false"/>
 			<station>
