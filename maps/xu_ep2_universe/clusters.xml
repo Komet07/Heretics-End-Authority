@@ -37,5 +37,20 @@
 				</properties>
 			</macro>
 		</connection> -->
+	<connection name="SuperHighway01_Cluster31_connection" ref="sechighways">
+            <offset>
+                <position x="0" y="500" z="0"/>
+            </offset>
+            <macro ref="SuperHighway01_Cluster31_macro" connection="cluster">
+                <connections>
+                    <connection ref="entrypoint">
+                        <macro ref="zoneCluster_31_Sector001SHCon4_GateZone_macro" path="../../Cluster_31_Sector001_connection/zoneCluster_31_Sector001SHCon4_GateZone_connection" connection="exitpoint1"/>
+                    </connection>
+                    <connection ref="exitpoint">
+                        <macro ref="zoneCluster_31_Sector002SHCon3_GateZone_macro" path="../../Cluster_31_Sector002_connection/zoneCluster_31_Sector002SHCon3_GateZone_connection" connection="entrypoint1"/>
+                    </connection>
+                </connections>
+            </macro>
+        </connection>
 	</add>
 </diff>
