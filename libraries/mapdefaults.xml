@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<diff>
+  <add sel="/defaults">
+    <dataset macro="Cluster_31_sector002_macro">
+    <properties>
+      <identification name="{2903101,400}" description="{2903101,401}"/>
+      <sounds>
+        <music ref="music_soundtrack_periphery"/>
+      </sounds>
+      <area sunlight="1.1" economy="0.7" security="0.6"/>
+    </properties>
+  </dataset>  
+  </add>
+</diff>
