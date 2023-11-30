@@ -18,7 +18,7 @@
     <properties>
       <boundaries>
         <boundary class="splinetube">
-          <splineposition x="-50000" y="500" z="25000" tx="" ty="" tz="" weight="" inlength="0" outlength="1" />
+          <splineposition x="-50000" y="500" z="-25000" tx="" ty="" tz="" weight="" inlength="0" outlength="1" />
           <splineposition x="341660" y="330500" z="-320000" tx="" ty="" tz="" weight="" inlength="1" outlength="1" />
           <splineposition x="683330" y="660500" z="-640000" tx="" ty="" tz="" weight="" inlength="1" outlength="1" />
           <splineposition x="1075000" y="1000500" z="-965000" tx="" ty="" tz="" weight="" inlength="1" outlength="0" />
