@@ -6,7 +6,7 @@
 			<layer>
 				<waypoints/>
 				<lights>
-					<box name="XU BoxLight24" shadow="0" r="165" g="238" b="254" lighteffect="1" trigger="1" intensity="3" specularintensity="1">
+					<box name="XU BoxLight24" shadow="0" r="165" g="238" b="200" lighteffect="1" trigger="1" intensity="3" specularintensity="1">
 						<size x="200" y="100" z="100"/>
 						<lightanimations/>
 						<offset>
