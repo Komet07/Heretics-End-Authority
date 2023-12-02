@@ -58,21 +58,5 @@
                 </connections>
             </macro>
         </connection>
-	<connection name="SuperHighway02_Cluster31_connection" ref="sechighways">
-            <offset>
-                <position x="0" y="0" z="0"/>
-            </offset>
-            <macro ref="SuperHighway02_Cluster31_macro" connection="cluster">
-                <connections>
-                    <connection ref="entrypoint">
-                        <macro ref="zoneCluster_31_Sector002SHCon01_GateZone_macro" path="../../Cluster_31_Sector002_connection/zoneCluster_31_Sector002SHCon01_GateZone_connection" connection="entrypoint1"/>
-                    </connection>
-                    <connection ref="exitpoint">
-			<macro ref="zoneCluster_31_Sector001SHCon02_GateZone_macro" path="../../Cluster_31_Sector001_connection/zoneCluster_31_Sector001SHCon02_GateZone_connection" connection="exitpoint1"/>
-                        
-                    </connection>
-                </connections>
-            </macro>
-        </connection>
     </add>
 </diff>
