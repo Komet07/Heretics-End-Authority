@@ -2,10 +2,10 @@
 <diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
   	<add sel="//macro[@name='Cluster_31_macro']/connections">
 	  	<connection name="Cluster_31_Sector002_connection" ref="sectors">
-			<macro ref="cluster_31_sector002_macro" connection="cluster" />
+			<macro ref="Cluster_31_Sector002_macro" connection="cluster" />
 		</connection>
 		<connection name="Cluster_31_Sector003_connection" ref="sectors">
-			<macro ref="cluster_31_sector003_macro" connection="cluster" />
+			<macro ref="Cluster_31_Sector003_macro" connection="cluster" />
 		</connection>
 		<!-- <connection name="C31S02_Region1_connection" ref="regions">
 			<offset>
