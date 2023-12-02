@@ -55,7 +55,7 @@
           <splineposition x="1074500" y="1000500" z="-965000" tx="" ty="" tz="" weight="0" inlength="1" outlength="0" />
           <splineposition x="682330" y="660500" z="-640000" tx="" ty="" tz="" weight="1" inlength="1" outlength="1" />
           <splineposition x="340660" y="330500" z="-320000" tx="" ty="" tz="" weight="1" inlength="1" outlength="1" />
-          <splineposition x="-50500" y="500" z="-25000" tx="" ty="" tz="" weight="0" inlength="0" outlength="1" />
+          <splineposition x="-56000" y="500" z="-25000" tx="" ty="" tz="" weight="0" inlength="0" outlength="1" />
           <size r="300" />
         </boundary>
       </boundaries>
@@ -127,7 +127,7 @@
           <splineposition x="10074500" y="500500" z="1025000" tx="" ty="" tz="" weight="" inlength="" outlength="0" />
           <splineposition x="682330" y="330500" z="640000" tx="" ty="" tz="" weight="" inlength="" outlength="" />
           <splineposition x="340660" y="166500" z="320000" tx="" ty="" tz="" weight="" inlength="" outlength="" />
-          <splineposition x="49500" y="500" z="45000" tx="" ty="" tz="" weight="" inlength="0" outlength="" />
+          <splineposition x="44000" y="500" z="45000" tx="" ty="" tz="" weight="" inlength="0" outlength="" />
           <size r="300" />
         </boundary>
       </boundaries>
