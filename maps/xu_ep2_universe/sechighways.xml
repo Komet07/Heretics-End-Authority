@@ -40,7 +40,7 @@
     <connections>
       <connection ref="exitpoint">
         <offset>
-          <position x="-50500" y="500" z="25000" />
+          <position x="-56000" y="500" z="25000" />
         </offset>
       </connection>
       <connection ref="entrypoint">
@@ -108,13 +108,13 @@
     <connections>
       <connection ref="exitpoint">
         <offset>
-          <position x="49500" y="500" z="45000" />
+          <position x="44000" y="500" z="45000" />
         </offset>
       </connection>
       <connection ref="entrypoint">
         <offset>
           
-          <position x="10074500" y="500500" z="1025000" />
+          <position x="10069000" y="500500" z="1025000" />
         </offset>
       </connection>
     </connections>
