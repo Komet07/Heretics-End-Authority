@@ -43,48 +43,7 @@
             <connection ref="SHCon3_gate"/>
         </connections>
     </macro>
-    <macro name="zone1_cluster_31_sector002_macro" class="zone">
-      <component ref="standardzone" />
-      <connections>
-      </connections>
-    </macro>
-    <macro name="zone2_cluster_31_sector002_macro" class="zone">
-      <component ref="standardzone" />
-      <connections>
-      </connections>
-    </macro>
-    <macro name="zone3_cluster_31_sector002_macro" class="zone">
-      <component ref="standardzone" />
-      <connections>
-      </connections>
-    </macro>
-    <macro name="zone4_cluster_31_sector002_macro" class="zone">
-      <component ref="standardzone" />
-      <connections>
-      </connections>
-    </macro>
-    <macro name="zone5_cluster_31_sector002_macro" class="zone">
-      <component ref="standardzone" />
-      <connections>
-      </connections>
-    </macro>
-    <macro name="zone6_cluster_31_sector002_macro" class="zone">
-      <component ref="standardzone" />
-      <connections>
-      </connections>
-    </macro>
-    <macro name="zoneCluster_31_Sector001SHCon4_GateZone_macro" class="zone">
-        <component ref="standardzone"/>
-        <connections>
-            <connection ref="SHCon4_gate"/>
-        </connections>
-    </macro>
-    <macro name="zoneCluster_31_Sector002SHCon3_GateZone_macro" class="zone">
-        <component ref="standardzone"/>
-        <connections>
-            <connection ref="SHCon3_gate"/>
-        </connections>
-    </macro>
+    
     <macro name="zone1_cluster_31_sector003_macro" class="zone">
       <component ref="standardzone" />
       <connections>
