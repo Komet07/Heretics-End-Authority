@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
   	<add sel="//macro[@name='Cluster_31_macro']/connections">
-	  	<connection name="cluster_31_sector002_connection" ref="sectors">
+	  	<connection name="Cluster_31_Sector002_connection" ref="sectors">
 			<macro ref="cluster_31_sector002_macro" connection="cluster" />
 		</connection>
-		<connection name="cluster_31_sector003_connection" ref="sectors">
+		<connection name="Cluster_31_Sector003_connection" ref="sectors">
 			<macro ref="cluster_31_sector003_macro" connection="cluster" />
 		</connection>
 		<!-- <connection name="C31S02_Region1_connection" ref="regions">
@@ -40,65 +40,39 @@
 				</properties>
 			</macro>
 		</connection> -->
-	<connection name="SuperHighway01_Cluster31_connection" ref="sechighways">
+	
+	</add>
+	<add sel="//macros/macro[@name='Cluster_31_macro']/connections">
+        <connection name="SuperHighway01_Cluster31_connection" ref="sechighways">
             <offset>
-                <position x="0" y="500" z="0"/>
+                <position x="0" y="0" z="0"/>
             </offset>
             <macro ref="SuperHighway01_Cluster31_macro" connection="cluster">
                 <connections>
                     <connection ref="entrypoint">
-                        <macro ref="zoneCluster_31_Sector001SHCon4_GateZone_macro" path="../../Cluster_31_Sector001_connection/zoneCluster_31_Sector001SHCon4_GateZone_connection" connection="exitpoint1"/>
+                        <macro ref="zoneCluster_31_Sector001SHCon02_GateZone_macro" path="../../Cluster_31_Sector001_connection/zoneCluster_31_Sector001SHCon02_GateZone_connection" connection="exitpoint1"/>
                     </connection>
                     <connection ref="exitpoint">
-                        <macro ref="zoneCluster_31_Sector002SHCon3_GateZone_macro" path="../../Cluster_31_Sector002_connection/zoneCluster_31_Sector002SHCon3_GateZone_connection" connection="entrypoint1"/>
+                        <macro ref="zoneCluster_31_Sector002SHCon01_GateZone_macro" path="../../Cluster_31_Sector002_connection/zoneCluster_31_Sector002SHCon01_GateZone_connection" connection="entrypoint1"/>
                     </connection>
                 </connections>
             </macro>
         </connection>
 	<connection name="SuperHighway02_Cluster31_connection" ref="sechighways">
             <offset>
-                <position x="0" y="500" z="0"/>
+                <position x="0" y="0" z="0"/>
             </offset>
             <macro ref="SuperHighway02_Cluster31_macro" connection="cluster">
                 <connections>
                     <connection ref="entrypoint">
-                        <macro ref="zoneCluster_31_Sector002SHCon3_GateZone_macro" path="../../Cluster_31_Sector002_connection/zoneCluster_31_Sector002SHCon3_GateZone_connection" connection="exitpoint1"/>
+                        <macro ref="zoneCluster_31_Sector002SHCon01_GateZone_macro" path="../../Cluster_31_Sector002_connection/zoneCluster_31_Sector002SHCon01_GateZone_connection" connection="entrypoint1"/>
                     </connection>
                     <connection ref="exitpoint">
-                        <macro ref="zoneCluster_31_Sector001SHCon4_GateZone_macro" path="../../Cluster_31_Sector001_connection/zoneCluster_31_Sector001SHCon4_GateZone_connection" connection="entrypoint1"/>
+			<macro ref="zoneCluster_31_Sector001SHCon02_GateZone_macro" path="../../Cluster_31_Sector001_connection/zoneCluster_31_Sector001SHCon02_GateZone_connection" connection="exitpoint1"/>
+                        
                     </connection>
                 </connections>
             </macro>
         </connection>
-	<connection name="SuperHighway03_Cluster31_connection" ref="sechighways">
-            <offset>
-                <position x="0" y="500" z="0"/>
-            </offset>
-            <macro ref="SuperHighway03_Cluster31_macro" connection="cluster">
-                <connections>
-                    <connection ref="entrypoint">
-                        <macro ref="zoneCluster_31_Sector001SHCon6_GateZone_macro" path="../../Cluster_31_Sector001_connection/zoneCluster_31_Sector001SHCon6_GateZone_connection" connection="exitpoint1"/>
-                    </connection>
-                    <connection ref="exitpoint">
-                        <macro ref="zoneCluster_31_Sector003SHCon5_GateZone_macro" path="../../Cluster_31_Sector003_connection/zoneCluster_31_Sector003SHCon5_GateZone_connection" connection="entrypoint1"/>
-                    </connection>
-                </connections>
-            </macro>
-        </connection>
-	<connection name="SuperHighway04_Cluster31_connection" ref="sechighways">
-            <offset>
-                <position x="0" y="500" z="0"/>
-            </offset>
-            <macro ref="SuperHighway04_Cluster31_macro" connection="cluster">
-                <connections>
-                    <connection ref="entrypoint">
-                        <macro ref="zoneCluster_31_Sector003SHCon5_GateZone_macro" path="../../Cluster_31_Sector003_connection/zoneCluster_31_Sector003SHCon5_GateZone_connection" connection="exitpoint1"/>
-                    </connection>
-                    <connection ref="exitpoint">
-                        <macro ref="zoneCluster_31_Sector001SHCon6_GateZone_macro" path="../../Cluster_31_Sector001_connection/zoneCluster_31_Sector001SHCon6_GateZone_connection" connection="entrypoint1"/>
-                    </connection>
-                </connections>
-            </macro>
-        </connection>
-	</add>
+    </add>
 </diff>
