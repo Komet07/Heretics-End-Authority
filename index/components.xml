@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<add sel="//index">
+    <!-- Bullets -->
+    <entry name="bullet_weapon_khea_l_destroyer_01_mk1" value="extensions\heretics_end_authority\assets\fx\weaponfx\bullet_weapon_khea_l_destroyer_01_mk1"/>
+  </add>
+</diff>
