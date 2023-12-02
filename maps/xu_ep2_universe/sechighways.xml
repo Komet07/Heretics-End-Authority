@@ -6,128 +6,22 @@
     <connections>
       <connection ref="exitpoint">
         <offset>
-          <position x="1075000" y="1000500" z="-965000" />
+          <position x="0" y="1000000" z="10025000" />
         </offset>
       </connection>
       <connection ref="entrypoint">
         <offset>
-          <position x="-50000" y="500" z="25000" />
+          <position x="0" y="500" z="-25000" />
         </offset>
       </connection>
     </connections>
     <properties>
       <boundaries>
         <boundary class="splinetube">
-          <splineposition x="-50000" y="500" z="-25000" tx="" ty="" tz="" weight="0" inlength="0" outlength="1" />
-          <splineposition x="341660" y="330500" z="-320000" tx="" ty="" tz="" weight="1" inlength="1" outlength="1" />
-          <splineposition x="683330" y="660500" z="-640000" tx="" ty="" tz="" weight="1" inlength="1" outlength="1" />
-          <splineposition x="1075000" y="1000500" z="-965000" tx="" ty="" tz="" weight="0" inlength="1" outlength="0" />
-          <size r="300" />
-        </boundary>
-      </boundaries>
-      <controls>
-        <linear>
-          <time />
-        </linear>
-        <angular>
-          <roll />
-        </angular>
-      </controls>
-    </properties>
-  </macro>
-     <macro name="SuperHighway02_Cluster31_macro" class="highway">
-    <component ref="standardsechighway" />
-    <connections>
-      <connection ref="exitpoint">
-        <offset>
-          <position x="-56000" y="500" z="25000" />
-        </offset>
-      </connection>
-      <connection ref="entrypoint">
-        <offset>
-          <position x="1074500" y="1000500" z="-965000" />
-        </offset>
-      </connection>
-    </connections>
-    <properties>
-      <boundaries>
-        <boundary class="splinetube">
-          <splineposition x="1074500" y="1000500" z="-965000" tx="" ty="" tz="" weight="0" inlength="1" outlength="0" />
-          <splineposition x="682330" y="660500" z="-640000" tx="" ty="" tz="" weight="1" inlength="1" outlength="1" />
-          <splineposition x="340660" y="330500" z="-320000" tx="" ty="" tz="" weight="1" inlength="1" outlength="1" />
-          <splineposition x="-56000" y="500" z="-25000" tx="" ty="" tz="" weight="0" inlength="0" outlength="1" />
-          <size r="300" />
-        </boundary>
-      </boundaries>
-      <controls>
-        <linear>
-          <time />
-        </linear>
-        <angular>
-          <roll />
-        </angular>
-      </controls>
-    </properties>
-  </macro>
-    <macro name="SuperHighway03_Cluster31_macro" class="highway">
-    <component ref="standardsechighway" />
-    <connections>
-      <connection ref="exitpoint">
-        <offset>
-          <position x="10075000" y="500500" z="1025000" />
-        </offset>
-      </connection>
-      <connection ref="entrypoint">
-        <offset>
-          <position x="50000" y="500" z="45000" />
-        </offset>
-      </connection>
-    </connections>
-    <properties>
-      <boundaries>
-        <boundary class="splinetube">
-          <splineposition x="50000" y="500" z="45000" tx="" ty="" tz="" weight="" inlength="0" outlength="" />
-          <splineposition x="341660" y="166500" z="320000" tx="" ty="" tz="" weight="" inlength="" outlength="" />
-          <splineposition x="683330" y="330500" z="640000" tx="" ty="" tz="" weight="" inlength="" outlength="" />
-          <splineposition x="10075000" y="500500" z="1025000" tx="" ty="" tz="" weight="" inlength="" outlength="0" />
-          <size r="300" />
-        </boundary>
-      </boundaries>
-      <controls>
-        <linear>
-          <time />
-        </linear>
-        <angular>
-          <roll />
-        </angular>
-      </controls>
-    </properties>
-  </macro>
-    <macro name="SuperHighway04_Cluster31_macro" class="highway">
-    <component ref="standardsechighway" />
-    <connections>
-      <connection ref="exitpoint">
-        <offset>
-          <position x="44000" y="500" z="45000" />
-        </offset>
-      </connection>
-      <connection ref="entrypoint">
-        <offset>
-          
-          <position x="10069000" y="500500" z="1025000" />
-        </offset>
-      </connection>
-    </connections>
-    <properties>
-      <boundaries>
-        <boundary class="splinetube">
-          
-          
-          
-          <splineposition x="10074500" y="500500" z="1025000" tx="" ty="" tz="" weight="" inlength="" outlength="0" />
-          <splineposition x="682330" y="330500" z="640000" tx="" ty="" tz="" weight="" inlength="" outlength="" />
-          <splineposition x="340660" y="166500" z="320000" tx="" ty="" tz="" weight="" inlength="" outlength="" />
-          <splineposition x="44000" y="500" z="45000" tx="" ty="" tz="" weight="" inlength="0" outlength="" />
+          <splineposition x="0" y="500" z="-25000" tx="" ty="" tz="" weight="" inlength="0" outlength="" />
+          <splineposition x="0" y="333000" z="3330000" tx="" ty="" tz="" weight="" inlength="" outlength="" />
+          <splineposition x="0" y="666000" z="6660000" tx="" ty="" tz="" weight="" inlength="" outlength="" />
+          <splineposition x="0" y="1000000" z="10025000" tx="" ty="" tz="" weight="" inlength="" outlength="0" />
           <size r="300" />
         </boundary>
       </boundaries>
