@@ -31,18 +31,7 @@
       <connections>
       </connections>
     </macro>
-    <macro name="zoneCluster_31_Sector001SHCon4_GateZone_macro" class="zone">
-        <component ref="standardzone"/>
-        <connections>
-            <connection ref="SHCon4_gate"/>
-        </connections>
-    </macro>
-    <macro name="zoneCluster_31_Sector002SHCon3_GateZone_macro" class="zone">
-        <component ref="standardzone"/>
-        <connections>
-            <connection ref="SHCon3_gate"/>
-        </connections>
-    </macro>
+
     
     <macro name="zone1_cluster_31_sector003_macro" class="zone">
       <component ref="standardzone" />
@@ -74,17 +63,19 @@
       <connections>
       </connections>
     </macro>
-    <macro name="zoneCluster_31_Sector001SHCon6_GateZone_macro" class="zone">
+
+    <macro name="zoneCluster_31_Sector001SHCon02_GateZone_macro" class="zone">
         <component ref="standardzone"/>
         <connections>
-            <connection ref="SHCon6_gate"/>
+            <connection ref="SHCon02_gate"/>
         </connections>
     </macro>
-    <macro name="zoneCluster_31_Sector003SHCon5_GateZone_macro" class="zone">
+    <macro name="zoneCluster_31_Sector002SHCon01_GateZone_macro" class="zone">
         <component ref="standardzone"/>
         <connections>
-            <connection ref="SHCon5_gate"/>
+            <connection ref="SHCon01_gate"/>
         </connections>
     </macro>
+
 </add>
 </diff>
