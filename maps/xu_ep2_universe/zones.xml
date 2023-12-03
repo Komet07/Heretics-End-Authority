@@ -76,6 +76,18 @@
             <connection ref="SHCon01_gate"/>
         </connections>
     </macro>
+    <macro name="zoneCluster_31_Sector001SHCon04_GateZone_macro" class="zone">
+        <component ref="standardzone"/>
+        <connections>
+            <connection ref="SHCon04_gate"/>
+        </connections>
+    </macro>
+    <macro name="zoneCluster_31_Sector003SHCon03_GateZone_macro" class="zone">
+        <component ref="standardzone"/>
+        <connections>
+            <connection ref="SHCon03_gate"/>
+        </connections>
+    </macro>
 
 </add>
 </diff>
