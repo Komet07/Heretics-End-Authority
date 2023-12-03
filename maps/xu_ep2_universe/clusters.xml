@@ -4,7 +4,7 @@
 	  	<connection name="Cluster_31_Sector002_connection" ref="sectors">
 			<macro ref="Cluster_31_Sector002_macro" connection="cluster" />
 			<offset>
-          			<position x="-100000000" y="40000000" z="-80000000" />
+          			<position x="-150000000" y="60000000" z="-120000000" />
         		</offset>
 		</connection>
 		<connection name="Cluster_31_Sector003_connection" ref="sectors">
