@@ -494,7 +494,7 @@
 		<owner faction="khea"/>
 	</add>
 	<!-- Weapons -->
-	<add sel="/wares">
+	<add sel="//wares">
 		<ware id="weapon_khea_l_destroyer_01_mk1" name="{2903101,250}" description="{2903101,300}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
 			<price min="722734" average="865032" max="937591"/>
 			<production time="10" amount="1" method="default" name="{20206,101}">
