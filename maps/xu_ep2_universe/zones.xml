@@ -31,6 +31,7 @@
       <connections>
       </connections>
     </macro>
+    
 
     
     <macro name="zone1_cluster_31_sector003_macro" class="zone">
@@ -61,6 +62,28 @@
     <macro name="zone6_cluster_31_sector003_macro" class="zone">
       <component ref="standardzone" />
       <connections>
+      </connections>
+    </macro>
+    <macro name="zoneG1_cluster_31_sector003_macro" class="zone">
+      <component ref="standardzone" />
+        <connections>
+          <connection name="khea_gate_c31_c400_positive_connection" ref="gates">
+        <offset>
+          <position x="100000" y="500" z="50000" />
+        </offset>
+        <macro ref="props_gates_anc_gate_macro" connection="space" />
+       </connection>
+      </connections>
+    </macro>
+    <macro name="zoneG1_cluster_400_sector001_macro" class="zone">
+      <component ref="standardzone" />
+        <connections>
+          <connection name="khea_gate_c31_c400_negative_connection" ref="gates">
+        <offset>
+          <position x="-75000" y="500" z="-90000" />
+        </offset>
+        <macro ref="props_gates_anc_gate_macro" connection="space" />
+       </connection>
       </connections>
     </macro>
 
