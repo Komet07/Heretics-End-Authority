@@ -72,5 +72,76 @@
       </controls>
     </properties>
   </macro>
+    <macro name="SuperHighway03_Cluster31_macro" class="highway">
+    <component ref="standardsechighway" />
+    <connections>
+      <connection ref="exitpoint">
+        <offset>
+          <position x="24975000" y="0" z="4992500" />
+        </offset>
+      </connection>
+      <connection ref="entrypoint">
+        <offset>
+          <position x="25000" y="500" z="2500" />
+        </offset>
+      </connection>
+    </connections>
+    <properties>
+      <boundaries>
+        <boundary class="splinetube">
+          <splineposition x="25000" y="500" z="2500" tx="" ty="" tz="" weight="0" inlength="0" outlength="" />
+          <splineposition x="10000000" y="500" z="1000000" tx="" ty="" tz="" weight="1" inlength="" outlength="" />
+          <splineposition x="20000000" y="0" z="3000000" tx="" ty="" tz="" weight="1" inlength="" outlength="" />
+          <splineposition x="24975000" y="0" z="4992500" tx="" ty="" tz="" weight="0" inlength="" outlength="0" />
+          <size r="300" />
+        </boundary>
+      </boundaries>
+      <controls>
+        <linear>
+          <time />
+        </linear>
+        <angular>
+          <roll />
+        </angular>
+      </controls>
+    </properties>
+  </macro>
+    <macro name="SuperHighway04_Cluster31_macro" class="highway">
+    <component ref="standardsechighway" />
+    <connections>
+      <connection ref="entrypoint">
+        <offset>
+          <position x="24975000" y="0" z="5000000" />
+        </offset>
+      </connection>
+      <connection ref="exitpoint">
+        <offset>
+          <position x="25000" y="500" z="10000" />
+        </offset>
+      </connection>
+    </connections>
+    <properties>
+      <boundaries>
+        <boundary class="splinetube">
+         
+         
+          
+          <splineposition x="24975000" y="0" z="5000000" tx="" ty="" tz="" weight="0" inlength="" outlength="0" />
+          <splineposition x="20000000" y="0" z="3000000" tx="" ty="" tz="" weight="1" inlength="" outlength="" />
+           <splineposition x="10000000" y="500" z="1000000" tx="" ty="" tz="" weight="1" inlength="" outlength="" />
+           <splineposition x="25000" y="500" z="10000" tx="" ty="" tz="" weight="0" inlength="0" outlength="" />
+          <size r="300" />
+        </boundary>
+      </boundaries>
+      <controls>
+        <linear>
+          <time />
+        </linear>
+        <angular>
+          <roll />
+        </angular>
+      </controls>
+    </properties>
+  </macro>
   </add>
 </diff>
