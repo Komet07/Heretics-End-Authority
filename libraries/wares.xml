@@ -504,7 +504,7 @@
         				<ware ware="weaponcomponents" amount="120" />
       				</primary>
 			</production>
-			<component ref="weapon_khea_l_destroyer_01_mk1_macro" amount="1"/>
+			<component ref="weapon_arg_l_destroyer_01_mk1_macro" amount="1"/>
 			<restriction licence="capitalequipment"/>
 			<use threshold="0"/>
 			<owner faction="khea"/>
