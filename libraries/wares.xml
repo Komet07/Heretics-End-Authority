@@ -208,7 +208,7 @@
 	<add sel="/wares/ware[@id='module_gen_prod_weaponcomponents_01']">
 		<owner faction="khea"/>
 	</add>
-	<add sel="/wares/ware[@id='ship_arg_l_trans_container_01_a']">
+	<add sel="/wares/ware[@id='ship_arg_l_trans_container_04_a']">
 		<owner faction="khea"/>
 	</add>
 	<add sel="/wares/ware[@id='ship_tel_l_trans_container_01_a']">
