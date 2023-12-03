@@ -16,7 +16,7 @@
       <sounds>
         <music ref="music_soundtrack_periphery"/>
       </sounds>
-      <area sunlight="0.9" economy="0.4" security="0.3"/>
+      <area sunlight="0.9" economy="0.6" security="0.3"/>
     </properties>
   </dataset>  
   </add>
