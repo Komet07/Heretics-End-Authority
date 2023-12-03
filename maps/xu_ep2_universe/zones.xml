@@ -64,7 +64,7 @@
       <connections>
       </connections>
     </macro>
-    <macro name="zoneG1_cluster_31_sector003_macro" class="zone">
+    <macro name="zoneG1_Cluster_31_Sector003_macro" class="zone">
       <component ref="standardzone" />
         <connections>
           <connection name="khea_gate_c31_c400_positive_connection" ref="gates">
@@ -75,7 +75,7 @@
        </connection>
       </connections>
     </macro>
-    <macro name="zoneG1_cluster_400_sector001_macro" class="zone">
+    <macro name="zoneG1_Cluster_400_Sector001_macro" class="zone">
       <component ref="standardzone" />
         <connections>
           <connection name="khea_gate_c31_c400_negative_connection" ref="gates">
