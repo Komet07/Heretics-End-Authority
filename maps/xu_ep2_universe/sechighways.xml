@@ -6,7 +6,7 @@
     <connections>
       <connection ref="exitpoint">
         <offset>
-          <position x="-25000000" y="1000000" z="-10025000" />
+          <position x="-50000000" y="2000000" z="-40025000" />
         </offset>
       </connection>
       <connection ref="entrypoint">
@@ -21,8 +21,8 @@
           <splineposition x="0" y="500" z="-25000" tx="" ty="" tz="" weight="0" inlength="0" outlength="" />
           <splineposition x="-10000000" y="3330000" z="-6660000" tx="" ty="" tz="" weight="1" inlength="" outlength="" />
           <splineposition x="-20000000" y="6660000" z="-13330000" tx="" ty="" tz="" weight="1" inlength="" outlength="" />
-          <splineposition x="-25000000" y="10000000" z="-20025000" tx="" ty="" tz="" weight="0" inlength="" outlength="0" />
-          <size r="300" />
+          <splineposition x="-50000000" y="20000000" z="-40025000" tx="" ty="" tz="" weight="0" inlength="" outlength="0" />
+          <size r="500" />
         </boundary>
       </boundaries>
       <controls>
@@ -40,7 +40,7 @@
     <connections>
       <connection ref="entrypoint">
         <offset>
-          <position x="-25007500" y="10000000" z="-20025000" />
+          <position x="-50007500" y="20000000" z="-40025000" />
         </offset>
       </connection>
       <connection ref="exitpoint">
@@ -55,7 +55,7 @@
          
          
           
-          <splineposition x="-25007500" y="10000000" z="-20025000" tx="" ty="" tz="" weight="0" inlength="" outlength="0" />
+          <splineposition x="-50007500" y="20000000" z="-40025000" tx="" ty="" tz="" weight="0" inlength="" outlength="0" />
           <splineposition x="-20007500" y="6660000" z="-13330000" tx="" ty="" tz="" weight="1" inlength="" outlength="" />
            <splineposition x="-10007500" y="3330000" z="-6660000" tx="" ty="" tz="" weight="1" inlength="" outlength="" />
            <splineposition x="7500" y="500" z="-25000" tx="" ty="" tz="" weight="0" inlength="0" outlength="" />
@@ -77,7 +77,7 @@
     <connections>
       <connection ref="exitpoint">
         <offset>
-          <position x="24975000" y="0" z="4992500" />
+          <position x="249975000" y="0" z="49992500" />
         </offset>
       </connection>
       <connection ref="entrypoint">
@@ -92,7 +92,7 @@
           <splineposition x="25000" y="500" z="2500" tx="" ty="" tz="" weight="0" inlength="0" outlength="" />
           <splineposition x="10000000" y="500" z="1000000" tx="" ty="" tz="" weight="1" inlength="" outlength="" />
           <splineposition x="20000000" y="0" z="3000000" tx="" ty="" tz="" weight="1" inlength="" outlength="" />
-          <splineposition x="24975000" y="0" z="4992500" tx="" ty="" tz="" weight="0" inlength="" outlength="0" />
+          <splineposition x="249975000" y="0" z="49992500" tx="" ty="" tz="" weight="0" inlength="" outlength="0" />
           <size r="300" />
         </boundary>
       </boundaries>
@@ -111,7 +111,7 @@
     <connections>
       <connection ref="entrypoint">
         <offset>
-          <position x="24975000" y="0" z="5000000" />
+          <position x="249975000" y="0" z="50000000" />
         </offset>
       </connection>
       <connection ref="exitpoint">
@@ -126,7 +126,7 @@
          
          
           
-          <splineposition x="24975000" y="0" z="5000000" tx="" ty="" tz="" weight="0" inlength="" outlength="0" />
+          <splineposition x="249975000" y="0" z="50000000" tx="" ty="" tz="" weight="0" inlength="" outlength="0" />
           <splineposition x="20000000" y="0" z="3000000" tx="" ty="" tz="" weight="1" inlength="" outlength="" />
            <splineposition x="10000000" y="500" z="1000000" tx="" ty="" tz="" weight="1" inlength="" outlength="" />
            <splineposition x="25000" y="500" z="10000" tx="" ty="" tz="" weight="0" inlength="0" outlength="" />
