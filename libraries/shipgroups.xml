@@ -8,7 +8,7 @@
 		</group>
 		<group name="khea_trader_container_l">
 			<select macro="ship_tel_l_trans_container_01_a_macro" weight="100"/>
-			<select macro="ship_arg_l_trans_container_01_a_macro" weight="50"/>
+			<select macro="ship_arg_l_trans_container_04_a_macro" weight="50"/>
 		</group>
 		<group name="khea_trader_container_m">
 			<select macro="ship_tel_m_trans_container_01_a_macro" weight="100"/>
