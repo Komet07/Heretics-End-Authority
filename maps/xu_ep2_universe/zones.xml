@@ -75,17 +75,7 @@
        </connection>
       </connections>
     </macro>
-    <macro name="zoneG1_Cluster_400_Sector001_macro" class="zone">
-      <component ref="standardzone" />
-        <connections>
-          <connection name="khea_gate_c31_c400_negative_connection" ref="gates">
-        <offset>
-          <position x="-75000" y="500" z="-90000" />
-        </offset>
-        <macro ref="props_gates_anc_gate_macro" connection="space" />
-       </connection>
-      </connections>
-    </macro>
+   
 
     <macro name="zoneCluster_31_Sector001SHCon02_GateZone_macro" class="zone">
         <component ref="standardzone"/>
