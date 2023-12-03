@@ -4,7 +4,7 @@
 	<macro name="Cluster_31_Sector002_macro" class="sector">
 	    	<component ref="standardsector"/>
 	    		<offset>
-				<position x="-25000000" y="10000000" z="-20000000"/>
+				<position x="-50000000" y="10000000" z="-40000000"/>
 	    		</offset>
 	    	<connections>
 	      	<connection name="Zone1_Cluster_31_Sector002_connection" ref="zones">
@@ -55,7 +55,7 @@
 	<macro name="Cluster_31_Sector003_macro" class="sector">
 	    	<component ref="standardsector"/>
 	    		<offset>
-				<position x="25000000" y="0" z="5000000"/>
+				<position x="250000000" y="0" z="50000000"/>
 	    		</offset>
 	    	<connections>
 	      	<connection name="Zone1_Cluster_31_Sector003_connection" ref="zones">
