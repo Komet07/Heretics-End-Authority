@@ -5,7 +5,7 @@
 		<properties>
 			<bullet speed="1500" lifetime="6.3" amount="1" barrelamount="3" icon="weapon_laser_mk1" timediff="0.008" angle="0.15" maxhits="1" ricochet="0" scale="0" attach="0"/>
 			<heat value="530"/>
-			<reload rate="1.5"/>
+			<reload rate="0.66"/>
 			<damage value="2120" shield="-0" repair="0"/>
 			<effects>
 				<impact ref="impact_arg_l_laser_01_mk1" inside="impact_arg_l_laser_01_mk1_inside"/>
