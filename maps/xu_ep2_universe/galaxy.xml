@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
 <add sel="//macros/macro[@name='XU_EP2_universe_macro']/connections">
-	<connection name="khea_gate_c31_c400" ref="destination" path="../Cluster_31_connection/Cluster_31_Sector003_connection/ZoneG1_Cluster_31_Sector003_connection/khea_gate_c31_c400_positive_connection">
+	<connection name="khea_gate_c31_c400" ref="destination" path="../Cluster_31_connection/Cluster_31_Sector003_connection/zoneG1_Cluster_31_Sector003_connection/khea_gate_c31_c400_positive_connection">
   		<macro connection="destination" path="../../../../../Cluster_400_connection/Cluster_400_Sector_001_connection/ZoneG1_Cluster_400_Sector001_connection/khea_gate_c31_c400_negative_connection"/>
 	</connection>
 </add>
